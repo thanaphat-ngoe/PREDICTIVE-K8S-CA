@@ -1,0 +1,8 @@
+1.timestamp
+2.node_cpu_usage 3
+3.node_mem_usage 3
+4.node_cpu_req 3
+5.node_mem_req 3
+6.node_cpu_cap 3
+7.node_mem_cap 3
+8.cluster_pod_pending
