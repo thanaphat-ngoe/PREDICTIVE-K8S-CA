@@ -1,6 +1,0 @@
---- Optimal KerasTuner Hyperparameters ---
-units_layer_1: 16
-num_layers: 2
-dropout_rate: 0.2
-learning_rate: 0.01
-units_layer_2: 48

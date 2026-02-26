@@ -18,9 +18,9 @@ warnings.filterwarnings("ignore", category=UserWarning, module='sklearn')
 # 1.  CONFIGURATION (MULTI-VARIABLE VERSION)
 
 # ใส่ Path ของ Model และ Scaler ตัวใหม่ของคุณตรงนี้
-MODEL_PATH = 'Multi-Variable/Best_Multi_Var_Model.keras'
-SCALER_INPUTS_PATH = 'Multi-Variable/Multi-Var_Scaler_Inputs.pkl'
-SCALER_TARGET_PATH = 'Multi-Variable/Multi-Var_Scaler_Target.pkl'
+MODEL_PATH = 'Best_Multi_Var_Model.keras'
+SCALER_INPUTS_PATH = 'Multi-Var_Scaler_Inputs.pkl'
+SCALER_TARGET_PATH = 'Multi-Var_Scaler_Target.pkl'
 
 WINDOW_SIZE = 30
 LOG_FILE = 'autoscaler_multi_log.csv' 
