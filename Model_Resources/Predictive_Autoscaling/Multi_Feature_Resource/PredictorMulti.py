@@ -102,14 +102,14 @@ def fetch_realtime_data_multivar():
     # 3. ดึง Pending Pods
     pending_count = 0
     try:
-        pending_cmd = "kubectl get pods -A --field-selector=status.phase=Pending --no-headers | wc -l"
+        pending_cmd = "kubectl get pods -n default --field-selector=status.phase=Pending --no-headers | wc -l"
         pending_count = int(run_cmd(pending_cmd))
     except: pass
 
     # ดึง Running Pods (ไว้ดู Log)
     running_count = 0
     try:
-        running_cmd = "kubectl get pods -A --field-selector=status.phase=Running --no-headers | wc -l"
+        running_cmd = "kubectl get pods -n default --field-selector=status.phase=Running --no-headers | wc -l"
         running_count = int(run_cmd(running_cmd))
     except: pass
 
@@ -153,7 +153,6 @@ except Exception as e:
 
 history_buffer = [] # จะเก็บ List ของ 5 ตัวแปร
 print(f"🚀 เริ่มต้น Monitor... (หน่วงเวลา {LOOP_INTERVAL} วิ)\n")
-
 while True:
     try:
         current_dt = datetime.datetime.now()

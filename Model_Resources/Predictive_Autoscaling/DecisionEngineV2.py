@@ -17,7 +17,7 @@ class DecisionEngine:
 
         # Thresholds
         self.scale_out_percent = 0.80  # Scale Out when predicting > 80% of current capacity
-        self.scale_in_percent = 0.75   # Scale In when predicting < 75% of capacity (after removing 1 node) 
+        self.scale_in_percent = 0.60 # Scale In when predicting < 60% of capacity (after removing 1 node) 
         self.safe_cpu_percent = 80.0   # Block scale-in if current cluster CPU > 80%
 
     #  จุดที่ 1: เติม current_cpu_req เข้ามาในวงเล็บ
