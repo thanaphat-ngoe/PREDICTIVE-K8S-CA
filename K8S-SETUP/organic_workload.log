@@ -1414,3 +1414,28 @@
 2026-02-27 13:42:20 | 💤 Cycle Finished. Sleeping briefly before next day...
 2026-02-27 13:43:20 | 📈 Starting RAMP UP Phase (Target: approx 40)
 2026-02-27 13:45:31 | 🛑 Script stopped by user.
+2026-02-27 14:14:04 | ==== Organic Workload Generator Started (Base: 4) ====
+2026-02-27 14:14:04 | 📈 Starting RAMP UP Phase (Target: approx 40)
+2026-02-27 14:39:12 | ⛰️ Reached PEAK. Holding high traffic for a while...
+2026-02-27 14:52:57 | 📉 Starting RAMP DOWN Phase (Target: 4)
+2026-02-27 15:07:57 | 🛑 Script stopped by user.
+2026-02-27 15:09:51 | ==== Organic Workload Generator Started (Base: 10) ====
+2026-02-27 15:09:51 | 📈 Starting RAMP UP Phase (Target: approx 40)
+2026-02-27 15:10:15 | 🛑 Script stopped by user.
+2026-02-27 15:11:31 | ==== Organic Workload Generator Started (Base: 10) ====
+2026-02-27 15:11:31 | 📈 Starting RAMP UP Phase (Target: approx 40)
+2026-02-27 15:28:50 | ⛰️ Reached PEAK. Holding high traffic for a while...
+2026-02-27 15:42:50 | 📉 Starting RAMP DOWN Phase (Target: 10)
+2026-02-27 16:01:23 | 💤 Cycle Finished. Sleeping briefly before next day...
+2026-02-27 16:02:23 | 📈 Starting RAMP UP Phase (Target: approx 40)
+2026-02-27 16:19:21 | ⛰️ Reached PEAK. Holding high traffic for a while...
+2026-02-27 16:29:33 | 📉 Starting RAMP DOWN Phase (Target: 10)
+2026-02-27 16:32:39 | 🛑 Script stopped by user.
+2026-02-27 17:22:26 | ==== Organic Workload Generator Started (Base: 10) ====
+2026-02-27 17:22:26 | 📈 Starting RAMP UP Phase (Target: approx 40)
+2026-02-27 17:38:13 | ⛰️ Reached PEAK. Holding high traffic for a while...
+2026-02-27 17:47:37 | 📉 Starting RAMP DOWN Phase (Target: 10)
+2026-02-27 18:07:15 | 💤 Cycle Finished. Sleeping briefly before next day...
+2026-02-27 18:08:15 | 📈 Starting RAMP UP Phase (Target: approx 40)
+2026-02-27 18:25:31 | ⛰️ Reached PEAK. Holding high traffic for a while...
+2026-02-27 18:32:51 | 📉 Starting RAMP DOWN Phase (Target: 10)

@@ -141,3 +141,210 @@
 2026-02-27 13:43:19,2,28.04,10,0,3.7,3.22,DO_NOTHING,System is stable
 2026-02-27 13:44:20,2,28.27,10,0,3.9,3.4,DO_NOTHING,System is stable
 2026-02-27 13:45:21,2,35.16,13,0,4.3,3.77,DO_NOTHING,System is stable
+2026-02-27 14:14:19,1,43.68,4,0,2.25,4.69,SCALE_OUT,[AI] Need 4.69 Cores (> 3.20 limit)
+2026-02-27 14:15:29,2,14.21,4,0,2.5,4.85,DO_NOTHING,System is stable
+2026-02-27 14:16:29,2,21.19,9,0,3.5,5.63,DO_NOTHING,System is stable
+2026-02-27 14:17:30,2,32.23,10,0,3.7,5.86,DO_NOTHING,System is stable
+2026-02-27 14:18:31,2,34.14,12,0,4.1,6.17,DO_NOTHING,System is stable
+2026-02-27 14:19:32,2,33.03,12,0,4.1,6.25,DO_NOTHING,System is stable
+2026-02-27 14:20:33,2,35.26,13,0,4.3,6.4,DO_NOTHING,System is stable
+2026-02-27 14:21:34,2,35.09,13,0,4.3,6.43,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:22:35,2,35.06,13,0,4.3,6.43,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:23:35,2,38.25,14,0,4.5,6.57,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:24:36,2,37.94,14,0,4.5,6.6,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:25:37,2,37.32,14,0,4.5,6.59,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:26:38,2,37.39,16,0,4.9,6.85,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:27:39,2,49.79,19,0,5.5,7.22,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:28:40,2,46.84,18,0,5.3,7.13,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:29:41,2,50.62,21,0,5.9,7.37,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:30:42,2,56.05,23,0,6.3,7.58,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:31:42,2,63.18,26,0,6.9,7.67,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:32:43,2,65.01,29,0,7.5,7.76,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:33:44,2,68.61,30,0,7.7,7.64,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:34:45,2,73.44,33,0,8.3,7.73,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:35:46,2,74.3,34,0,8.5,7.78,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:36:47,2,74.14,35,0,8.7,7.9,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:37:48,2,74.84,36,0,8.9,8.18,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:38:49,2,77.83,36,3,8.9,8.3,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:39:49,2,77.01,36,5,8.9,8.34,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:40:50,2,78.59,36,3,8.9,8.35,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:41:51,2,78.51,36,2,8.9,8.28,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:42:52,2,78.31,36,3,8.9,8.19,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:43:53,2,78.1,36,3,8.9,8.09,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:44:54,2,77.26,36,3,8.9,7.97,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:45:55,2,77.4,36,2,8.9,7.84,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:46:56,2,76.88,36,3,8.9,7.71,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:47:56,2,77.79,36,5,8.9,7.55,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:48:57,2,77.38,36,6,8.9,7.44,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:49:58,2,80.56,36,6,8.9,7.32,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:50:59,2,77.62,36,4,8.9,7.27,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:52:00,2,77.94,36,5,8.9,7.24,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:53:01,2,77.77,36,4,8.9,7.21,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:54:02,2,77.83,36,1,8.9,7.2,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:55:03,2,76.44,35,0,8.7,6.95,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 14:56:04,2,71.81,32,0,8.1,6.28,DO_NOTHING,System is stable
+2026-02-27 14:57:05,2,68.1,29,0,7.5,5.68,DO_NOTHING,System is stable
+2026-02-27 14:58:05,2,64.88,27,0,7.1,5.31,DO_NOTHING,System is stable
+2026-02-27 14:59:06,2,57.85,24,0,6.5,4.68,DO_NOTHING,System is stable
+2026-02-27 15:00:07,2,52.96,20,0,5.7,3.89,DO_NOTHING,System is stable
+2026-02-27 15:01:08,2,51.86,19,0,5.5,3.76,DO_NOTHING,System is stable
+2026-02-27 15:02:09,2,49.24,19,0,5.5,3.72,DO_NOTHING,System is stable
+2026-02-27 15:03:10,2,49.6,19,0,5.5,3.6,DO_NOTHING,System is stable
+2026-02-27 15:04:11,2,50.12,17,0,5.1,3.19,DO_NOTHING,System is stable
+2026-02-27 15:05:11,2,44.24,14,0,4.5,2.94,DO_NOTHING,System is stable
+2026-02-27 15:06:12,2,33.26,11,0,3.9,3.05,DO_NOTHING,System is stable
+2026-02-27 15:07:13,2,28.85,8,0,3.3,3.4,DO_NOTHING,System is stable
+2026-02-27 15:09:59,1,28.3,9,1,3.45,5.55,SCALE_OUT,[Emergency] Detected 1 Pending Pods
+2026-02-27 15:11:18,1,50.85,10,0,3.45,5.55,SCALE_OUT,[AI] Need 5.55 Cores (> 3.20 limit)
+2026-02-27 15:12:28,2,27.98,10,0,3.7,5.76,DO_NOTHING,System is stable
+2026-02-27 15:13:28,2,27.76,10,0,3.7,5.8,DO_NOTHING,System is stable
+2026-02-27 15:14:29,2,30.6,13,0,4.3,6.27,DO_NOTHING,System is stable
+2026-02-27 15:15:30,2,39.54,15,0,4.7,6.64,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:16:31,2,39.79,15,0,4.7,6.7,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:17:32,2,40.89,16,0,4.9,6.83,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:18:33,2,48.9,19,0,5.5,7.21,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:19:34,2,53.21,20,0,5.7,7.31,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:20:35,2,52.16,23,0,6.3,7.52,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:21:35,2,62.38,26,0,6.9,7.73,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:22:36,2,60.96,25,0,6.7,7.51,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:23:37,2,65.44,28,0,7.3,7.68,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:24:38,2,69.64,32,0,8.1,7.92,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:25:39,2,75.61,35,0,8.7,7.86,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:26:40,2,77.17,36,2,8.9,7.94,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:27:41,2,77.0,36,2,8.9,8.12,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:28:42,2,76.97,36,3,8.9,8.27,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:29:42,2,77.38,36,4,8.9,8.36,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:30:43,2,77.74,36,5,8.9,8.35,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:31:44,2,77.19,36,4,8.9,8.31,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:32:45,2,76.22,36,4,8.9,8.23,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:33:46,2,77.06,36,5,8.9,8.12,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:34:47,2,77.16,36,5,8.9,8.01,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:35:48,2,76.31,36,7,8.9,7.9,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:36:49,2,77.01,36,7,8.9,7.79,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:37:49,2,77.76,36,7,8.9,7.7,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:38:50,2,76.35,36,8,8.9,7.61,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:39:51,2,77.42,36,6,8.9,7.53,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:40:52,2,79.11,36,5,8.9,7.45,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:41:53,2,78.7,36,3,8.9,7.35,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:42:54,2,78.65,36,4,8.9,7.28,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:43:55,2,78.65,36,4,8.9,7.21,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:44:56,2,79.66,36,2,8.9,7.19,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:45:56,2,77.81,36,1,8.9,7.18,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:46:57,2,77.08,34,0,8.5,6.71,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:47:58,2,73.04,33,0,8.3,6.49,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 15:48:59,2,71.61,32,0,8.1,6.3,DO_NOTHING,System is stable
+2026-02-27 15:50:00,2,66.36,29,0,7.5,5.65,DO_NOTHING,System is stable
+2026-02-27 15:51:01,2,66.25,27,0,7.1,5.29,DO_NOTHING,System is stable
+2026-02-27 15:52:02,2,63.7,26,0,6.9,5.13,DO_NOTHING,System is stable
+2026-02-27 15:53:03,2,58.65,24,0,6.5,4.68,DO_NOTHING,System is stable
+2026-02-27 15:54:03,2,59.22,23,0,6.3,4.5,DO_NOTHING,System is stable
+2026-02-27 15:55:04,2,56.39,22,0,6.1,4.29,DO_NOTHING,System is stable
+2026-02-27 15:56:05,2,58.03,23,0,6.3,4.48,DO_NOTHING,System is stable
+2026-02-27 15:57:06,2,52.7,20,0,5.7,3.78,DO_NOTHING,System is stable
+2026-02-27 15:58:07,2,50.17,19,0,5.5,3.59,DO_NOTHING,System is stable
+2026-02-27 15:59:08,2,44.56,17,0,5.1,3.26,DO_NOTHING,System is stable
+2026-02-27 16:00:09,2,43.25,16,0,4.9,3.08,DO_NOTHING,System is stable
+2026-02-27 16:01:10,2,34.71,13,0,4.3,2.88,DO_NOTHING,"[Wait] AI Predicts 2.88, but Current Req is still high (4.30 >= 3.00)"
+2026-02-27 16:02:10,2,28.05,10,0,3.7,3.11,DO_NOTHING,System is stable
+2026-02-27 16:03:11,2,27.61,10,0,3.7,3.3,DO_NOTHING,System is stable
+2026-02-27 16:04:12,2,32.29,12,0,4.1,3.51,DO_NOTHING,System is stable
+2026-02-27 16:05:13,2,39.99,18,0,5.3,4.65,DO_NOTHING,System is stable
+2026-02-27 16:06:14,2,47.94,19,0,5.5,4.89,DO_NOTHING,System is stable
+2026-02-27 16:07:15,2,48.01,19,0,5.5,4.83,DO_NOTHING,System is stable
+2026-02-27 16:08:16,2,48.76,19,0,5.5,4.88,DO_NOTHING,System is stable
+2026-02-27 16:09:17,2,54.71,23,0,6.3,5.71,DO_NOTHING,System is stable
+2026-02-27 16:10:17,2,57.38,23,0,6.3,5.64,DO_NOTHING,System is stable
+2026-02-27 16:11:18,2,60.69,25,0,6.7,5.92,DO_NOTHING,System is stable
+2026-02-27 16:12:19,2,61.26,24,0,6.5,5.68,DO_NOTHING,System is stable
+2026-02-27 16:13:20,2,58.93,24,0,6.5,5.53,DO_NOTHING,System is stable
+2026-02-27 16:14:21,2,60.39,25,0,6.7,5.69,DO_NOTHING,System is stable
+2026-02-27 16:15:22,2,65.33,28,0,7.3,6.25,DO_NOTHING,System is stable
+2026-02-27 16:16:23,2,69.96,30,0,7.7,6.62,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 16:17:24,2,75.16,34,0,8.5,7.51,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 16:18:24,2,77.95,36,1,8.9,8.01,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 16:19:25,2,78.04,36,4,8.9,7.86,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 16:20:26,2,77.62,36,3,8.9,7.77,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 16:21:27,2,77.55,36,1,8.9,7.7,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 16:22:28,2,77.28,36,3,8.9,7.63,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 16:23:29,2,77.53,36,2,8.9,7.6,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 16:24:30,2,77.11,36,3,8.9,7.55,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 16:25:31,2,78.89,36,1,8.9,7.51,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 16:26:31,2,78.44,35,0,8.7,7.28,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 16:27:32,2,78.9,36,0,8.9,7.48,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 16:28:33,2,77.7,36,0,8.9,7.48,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 16:29:34,2,77.21,34,0,8.5,6.91,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 16:30:35,2,75.33,31,0,7.9,6.27,DO_NOTHING,System is stable
+2026-02-27 16:31:36,2,69.97,31,0,7.9,6.29,DO_NOTHING,System is stable
+2026-02-27 16:32:37,2,66.24,28,0,7.3,5.56,DO_NOTHING,System is stable
+2026-02-27 17:03:16,2,27.07,10,0,3.7,5.82,DO_NOTHING,System is stable
+2026-02-27 17:04:17,2,26.91,10,0,3.7,5.82,DO_NOTHING,System is stable
+2026-02-27 17:05:18,2,27.11,10,0,3.7,5.82,DO_NOTHING,System is stable
+2026-02-27 17:06:19,2,26.3,10,0,3.7,5.82,DO_NOTHING,System is stable
+2026-02-27 17:07:20,2,26.77,10,0,3.7,5.82,DO_NOTHING,System is stable
+2026-02-27 17:08:21,2,27.35,10,0,3.7,5.82,DO_NOTHING,System is stable
+2026-02-27 17:09:22,2,28.29,10,0,3.7,5.82,DO_NOTHING,System is stable
+2026-02-27 17:10:22,2,28.7,10,0,3.7,5.82,DO_NOTHING,System is stable
+2026-02-27 17:11:23,2,27.62,10,0,3.7,5.82,DO_NOTHING,System is stable
+2026-02-27 17:12:24,2,28.46,10,0,3.7,5.82,DO_NOTHING,System is stable
+2026-02-27 17:13:25,2,28.23,10,0,3.7,5.82,DO_NOTHING,System is stable
+2026-02-27 17:13:45,2,27.1,10,0,3.7,5.82,DO_NOTHING,System is stable
+2026-02-27 17:14:46,2,27.06,10,0,3.7,5.82,DO_NOTHING,System is stable
+2026-02-27 17:15:47,2,26.71,10,0,3.7,5.82,DO_NOTHING,System is stable
+2026-02-27 17:16:17,2,26.94,10,0,3.7,5.82,DO_NOTHING,System is stable
+2026-02-27 17:19:37,2,28.29,10,0,2.5,4.78,DO_NOTHING,System is stable
+2026-02-27 17:20:38,2,27.74,10,0,2.5,4.78,DO_NOTHING,System is stable
+2026-02-27 17:22:15,1,52.25,10,0,2.25,4.69,SCALE_OUT,[AI] Need 4.69 Cores (> 3.20 limit)
+2026-02-27 17:23:24,2,33.27,13,0,3.1,5.2,DO_NOTHING,System is stable
+2026-02-27 17:24:25,2,37.76,13,0,3.1,5.2,DO_NOTHING,System is stable
+2026-02-27 17:25:25,2,37.14,14,0,3.3,5.37,DO_NOTHING,System is stable
+2026-02-27 17:26:26,2,44.19,17,0,3.9,5.89,DO_NOTHING,System is stable
+2026-02-27 17:27:27,2,47.31,18,0,4.1,6.14,DO_NOTHING,System is stable
+2026-02-27 17:28:28,2,47.24,20,0,4.5,6.47,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 17:29:28,2,52.28,20,0,4.5,6.55,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 17:30:29,2,55.38,22,0,4.9,6.81,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 17:31:30,2,56.57,25,0,5.5,7.2,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 17:32:31,2,62.18,26,1,5.9,7.39,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 17:33:32,2,64.91,30,0,6.5,7.59,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 17:34:32,2,68.98,30,0,6.5,7.52,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 17:35:33,2,75.29,33,0,7.1,7.67,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 17:36:34,2,75.4,36,1,7.7,7.81,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:07:30,2,33.41,10,0,2.5,4.16,DO_NOTHING,System is stable
+2026-02-27 18:08:32,2,28.52,10,0,2.5,4.71,DO_NOTHING,System is stable
+2026-02-27 18:09:33,2,28.5,10,0,2.5,4.91,DO_NOTHING,System is stable
+2026-02-27 18:10:34,2,30.7,12,0,2.9,5.15,DO_NOTHING,System is stable
+2026-02-27 18:11:34,2,40.34,15,0,3.5,5.61,DO_NOTHING,System is stable
+2026-02-27 18:12:35,2,41.3,16,0,3.7,5.78,DO_NOTHING,System is stable
+2026-02-27 18:13:36,2,44.06,17,0,3.9,5.95,DO_NOTHING,System is stable
+2026-02-27 18:14:37,2,56.76,23,0,5.1,6.88,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:15:38,2,59.6,25,0,5.5,7.23,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:16:38,2,64.36,27,0,5.9,7.35,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:17:39,2,63.36,27,0,5.9,7.37,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:18:40,2,65.44,28,1,6.3,7.51,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:19:41,2,67.1,31,0,6.7,7.65,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:20:42,2,69.26,31,0,6.7,7.56,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:21:42,2,71.36,34,0,7.3,7.73,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:22:43,2,74.0,34,0,7.3,7.66,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:23:44,2,76.53,36,0,7.7,7.69,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:24:45,2,77.1,36,2,7.7,7.68,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:25:46,2,76.79,36,4,7.7,7.61,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:26:46,2,77.33,36,5,7.7,7.58,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:27:47,2,76.28,36,6,7.7,7.5,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:28:48,2,76.4,36,8,7.7,7.39,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:29:49,2,76.43,36,6,7.7,7.27,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:30:51,2,77.2,36,6,7.7,7.12,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:31:53,2,78.4,36,7,7.7,6.98,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:32:54,2,77.41,36,8,7.7,6.85,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:33:56,2,77.03,36,4,7.7,6.72,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:34:58,2,77.22,36,2,7.7,6.61,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:35:58,2,77.38,36,1,7.7,6.51,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-02-27 18:36:59,2,74.8,34,0,7.3,5.98,DO_NOTHING,System is stable
+2026-02-27 18:38:00,2,76.02,32,0,6.9,5.47,DO_NOTHING,System is stable
+2026-02-27 18:39:01,2,71.89,29,0,6.3,4.77,DO_NOTHING,System is stable
+2026-02-27 18:40:02,2,67.86,29,0,6.3,4.72,DO_NOTHING,System is stable
+2026-02-27 18:41:02,2,68.64,26,0,5.7,3.97,DO_NOTHING,System is stable
+2026-02-27 18:42:03,2,58.04,24,0,5.3,3.52,DO_NOTHING,System is stable
+2026-02-27 18:43:04,2,59.93,24,0,5.3,3.54,DO_NOTHING,System is stable
+2026-02-27 18:44:05,2,58.9,22,0,4.9,3.1,DO_NOTHING,System is stable
+2026-02-27 18:45:06,2,54.61,21,0,4.7,2.97,DO_NOTHING,"[Wait] AI Predicts 2.97, but Current Req is still high (4.70 >= 3.00)"
+2026-02-27 18:46:06,2,47.79,18,0,4.1,2.89,DO_NOTHING,"[Wait] AI Predicts 2.89, but Current Req is still high (4.10 >= 3.00)"
+2026-02-27 18:47:07,2,44.85,17,0,3.9,3.06,DO_NOTHING,System is stable

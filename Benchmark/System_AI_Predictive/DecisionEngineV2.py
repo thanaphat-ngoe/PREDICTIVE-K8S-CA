@@ -41,8 +41,8 @@ class DecisionEngine:
         else:
             # Predictive Logic
             scale_out_threshold = current_total_cores * self.scale_out_percent
-            cores_after_scale_in = (current_workers - 1) * self.cores_per_node
-            scale_in_threshold = cores_after_scale_in * self.scale_in_percent
+            cores_after_scale_in = (current_workers - 1) * self.cores_per_node # 4 แน่นอน
+            scale_in_threshold = cores_after_scale_in * self.scale_in_percent # 3
 
             # ขาขึ้น: เชื่อ AI อย่างเดียว รีบเปิดเครื่องดักไว้เลย
             if predicted_cores > scale_out_threshold:
