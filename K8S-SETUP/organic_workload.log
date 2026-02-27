@@ -1439,3 +1439,6 @@
 2026-02-27 18:08:15 | 📈 Starting RAMP UP Phase (Target: approx 40)
 2026-02-27 18:25:31 | ⛰️ Reached PEAK. Holding high traffic for a while...
 2026-02-27 18:32:51 | 📉 Starting RAMP DOWN Phase (Target: 10)
+2026-02-27 18:50:18 | 💤 Cycle Finished. Sleeping briefly before next day...
+2026-02-27 18:51:18 | 📈 Starting RAMP UP Phase (Target: approx 40)
+2026-02-27 18:51:21 | 🛑 Script stopped by user.
