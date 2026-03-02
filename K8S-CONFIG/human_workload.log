@@ -1,0 +1,1356 @@
+2025-11-21 16:09:24 | ==== Human-Like Workload Generator Started ====
+2025-11-21 16:09:24 | ✅ Scaled to 10 replicas
+2025-11-21 16:09:24 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-21 16:09:24 | [Step 1/3] Sleeping for 5 mins 46s...
+2025-11-21 16:15:10 | 🚀 Increasing load by 10 pods.
+2025-11-21 16:15:11 | ✅ Scaled to 20 replicas
+2025-11-21 16:15:11 | [Step 2/3] Sleeping for 6 mins 13s...
+2025-11-21 16:21:24 | 🚀 Increasing load by 9 pods.
+2025-11-21 16:21:24 | ✅ Scaled to 29 replicas
+2025-11-21 16:21:24 | [Step 3/3] Sleeping for 8 mins 15s...
+2025-11-21 16:29:39 | 🚀 Increasing load by 10 pods.
+2025-11-21 16:29:39 | ✅ Scaled to 39 replicas
+2025-11-21 16:29:39 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-21 16:29:39 | [Cooldown] Sleeping for 9 mins 28s...
+2025-11-21 16:39:07 | 🔻 User traffic dropping... (Removing 9 pods)
+2025-11-21 16:39:07 | ✅ Scaled to 30 replicas
+2025-11-21 16:39:07 | [Cooldown] Sleeping for 7 mins 40s...
+2025-11-21 16:46:47 | ⏸️ User traffic stable... (Holding at 30 pods)
+2025-11-21 16:46:47 | ✅ Scaled to 30 replicas
+2025-11-21 16:46:47 | [Cooldown] Sleeping for 9 mins 14s...
+2025-11-21 16:56:01 | ⏸️ User traffic stable... (Holding at 30 pods)
+2025-11-21 16:56:01 | ✅ Scaled to 30 replicas
+2025-11-21 16:56:01 | [Cooldown] Sleeping for 8 mins 25s...
+2025-11-21 17:04:26 | ⏸️ User traffic stable... (Holding at 30 pods)
+2025-11-21 17:04:26 | ✅ Scaled to 30 replicas
+2025-11-21 17:04:26 | [Cooldown] Sleeping for 7 mins 43s...
+2025-11-21 17:12:09 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-21 17:12:09 | ✅ Scaled to 20 replicas
+2025-11-21 17:12:09 | [Cooldown] Sleeping for 6 mins 28s...
+2025-11-21 17:18:37 | ⏸️ User traffic stable... (Holding at 20 pods)
+2025-11-21 17:18:37 | ✅ Scaled to 20 replicas
+2025-11-21 17:18:37 | [Cooldown] Sleeping for 9 mins 41s...
+2025-11-21 17:28:18 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-21 17:28:18 | ✅ Scaled to 12 replicas
+2025-11-21 17:28:18 | [Cooldown] Sleeping for 8 mins 49s...
+2025-11-21 17:37:07 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-21 17:37:07 | ✅ Scaled to 6 replicas
+2025-11-21 17:37:07 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-21 17:37:07 | ✅ Scaled to 10 replicas
+2025-11-21 17:37:07 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-21 17:37:07 | [Step 1/3] Sleeping for 8 mins 22s...
+2025-11-21 17:45:29 | 🚀 Increasing load by 6 pods.
+2025-11-21 17:45:29 | ✅ Scaled to 16 replicas
+2025-11-21 17:45:29 | [Step 2/3] Sleeping for 8 mins 54s...
+2025-11-21 17:54:23 | 🚀 Increasing load by 8 pods.
+2025-11-21 17:54:24 | ✅ Scaled to 24 replicas
+2025-11-21 17:54:24 | [Step 3/3] Sleeping for 5 mins 16s...
+2025-11-21 17:59:40 | 🚀 Increasing load by 9 pods.
+2025-11-21 17:59:40 | ✅ Scaled to 33 replicas
+2025-11-21 17:59:40 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-21 17:59:40 | [Cooldown] Sleeping for 5 mins 6s...
+2025-11-21 18:04:46 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-21 18:04:46 | ✅ Scaled to 25 replicas
+2025-11-21 18:04:46 | [Cooldown] Sleeping for 8 mins 30s...
+2025-11-21 18:13:16 | ⏸️ User traffic stable... (Holding at 25 pods)
+2025-11-21 18:13:16 | ✅ Scaled to 25 replicas
+2025-11-21 18:13:16 | [Cooldown] Sleeping for 5 mins 43s...
+2025-11-21 18:18:59 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-21 18:18:59 | ✅ Scaled to 17 replicas
+2025-11-21 18:18:59 | [Cooldown] Sleeping for 5 mins 6s...
+2025-11-21 18:24:05 | ⏸️ User traffic stable... (Holding at 17 pods)
+2025-11-21 18:24:05 | ✅ Scaled to 17 replicas
+2025-11-21 18:24:05 | [Cooldown] Sleeping for 5 mins 53s...
+2025-11-21 18:29:58 | ⏸️ User traffic stable... (Holding at 17 pods)
+2025-11-21 18:29:58 | ✅ Scaled to 17 replicas
+2025-11-21 18:29:58 | [Cooldown] Sleeping for 7 mins 45s...
+2025-11-21 18:37:43 | 🔻 User traffic dropping... (Removing 9 pods)
+2025-11-21 18:37:43 | ✅ Scaled to 8 replicas
+2025-11-21 18:37:43 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-21 18:37:43 | ✅ Scaled to 10 replicas
+2025-11-21 18:37:43 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-21 18:37:43 | [Step 1/3] Sleeping for 7 mins 7s...
+2025-11-21 18:44:50 | 🚀 Increasing load by 7 pods.
+2025-11-21 18:44:50 | ✅ Scaled to 17 replicas
+2025-11-21 18:44:50 | [Step 2/3] Sleeping for 9 mins 55s...
+2025-11-21 18:54:45 | 🚀 Increasing load by 9 pods.
+2025-11-21 18:54:45 | ✅ Scaled to 26 replicas
+2025-11-21 18:54:45 | [Step 3/3] Sleeping for 6 mins 6s...
+2025-11-21 19:00:51 | 🚀 Increasing load by 8 pods.
+2025-11-21 19:00:51 | ✅ Scaled to 34 replicas
+2025-11-21 19:00:51 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-21 19:00:51 | [Cooldown] Sleeping for 6 mins 6s...
+2025-11-21 19:06:57 | ⏸️ User traffic stable... (Holding at 34 pods)
+2025-11-21 19:06:57 | ✅ Scaled to 34 replicas
+2025-11-21 19:06:57 | [Cooldown] Sleeping for 5 mins 23s...
+2025-11-21 19:12:20 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-21 19:12:20 | ✅ Scaled to 26 replicas
+2025-11-21 19:12:20 | [Cooldown] Sleeping for 6 mins 26s...
+2025-11-21 19:18:46 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-21 19:18:47 | ✅ Scaled to 20 replicas
+2025-11-21 19:18:47 | [Cooldown] Sleeping for 9 mins 52s...
+2025-11-21 19:28:39 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-21 19:28:39 | ✅ Scaled to 14 replicas
+2025-11-21 19:28:39 | [Cooldown] Sleeping for 7 mins 29s...
+2025-11-21 19:36:08 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-21 19:36:08 | ✅ Scaled to 9 replicas
+2025-11-21 19:36:08 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-21 19:36:08 | ✅ Scaled to 10 replicas
+2025-11-21 19:36:08 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-21 19:36:08 | [Step 1/3] Sleeping for 7 mins 6s...
+2025-11-21 19:43:14 | 🚀 Increasing load by 8 pods.
+2025-11-21 19:43:14 | ✅ Scaled to 18 replicas
+2025-11-21 19:43:14 | [Step 2/3] Sleeping for 6 mins 27s...
+2025-11-21 19:49:41 | 🚀 Increasing load by 5 pods.
+2025-11-21 19:49:41 | ✅ Scaled to 23 replicas
+2025-11-21 19:49:41 | [Step 3/3] Sleeping for 8 mins 50s...
+2025-11-21 19:58:31 | 🚀 Increasing load by 5 pods.
+2025-11-21 19:58:31 | ✅ Scaled to 28 replicas
+2025-11-21 19:58:31 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-21 19:58:31 | [Cooldown] Sleeping for 6 mins 26s...
+2025-11-21 20:04:57 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-21 20:04:57 | ✅ Scaled to 23 replicas
+2025-11-21 20:04:57 | [Cooldown] Sleeping for 8 mins 23s...
+2025-11-21 20:13:20 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-21 20:13:20 | ✅ Scaled to 18 replicas
+2025-11-21 20:13:20 | [Cooldown] Sleeping for 8 mins 41s...
+2025-11-21 20:22:01 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-21 20:22:01 | ✅ Scaled to 13 replicas
+2025-11-21 20:22:01 | [Cooldown] Sleeping for 7 mins 56s...
+2025-11-21 20:29:57 | ⏸️ User traffic stable... (Holding at 13 pods)
+2025-11-21 20:29:57 | ✅ Scaled to 13 replicas
+2025-11-21 20:29:57 | [Cooldown] Sleeping for 5 mins 58s...
+2025-11-21 20:35:55 | ⏸️ User traffic stable... (Holding at 13 pods)
+2025-11-21 20:35:55 | ✅ Scaled to 13 replicas
+2025-11-21 20:35:55 | [Cooldown] Sleeping for 7 mins 18s...
+2025-11-21 20:43:13 | ⏸️ User traffic stable... (Holding at 13 pods)
+2025-11-21 20:43:13 | ✅ Scaled to 13 replicas
+2025-11-21 20:43:13 | [Cooldown] Sleeping for 7 mins 48s...
+2025-11-21 20:51:01 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-21 20:51:01 | ✅ Scaled to 7 replicas
+2025-11-21 20:51:01 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-21 20:51:01 | ✅ Scaled to 10 replicas
+2025-11-21 20:51:01 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-21 20:51:01 | [Step 1/3] Sleeping for 8 mins 58s...
+2025-11-21 20:59:59 | 🚀 Increasing load by 9 pods.
+2025-11-21 21:00:00 | ✅ Scaled to 19 replicas
+2025-11-21 21:00:00 | [Step 2/3] Sleeping for 8 mins 31s...
+2025-11-21 21:08:31 | 🚀 Increasing load by 5 pods.
+2025-11-21 21:08:31 | ✅ Scaled to 24 replicas
+2025-11-21 21:08:31 | [Step 3/3] Sleeping for 5 mins 52s...
+2025-11-21 21:14:23 | 🚀 Increasing load by 10 pods.
+2025-11-21 21:14:23 | ✅ Scaled to 34 replicas
+2025-11-21 21:14:23 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-21 21:14:23 | [Cooldown] Sleeping for 8 mins 3s...
+2025-11-21 21:22:26 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-21 21:22:26 | ✅ Scaled to 29 replicas
+2025-11-21 21:22:26 | [Cooldown] Sleeping for 5 mins 42s...
+2025-11-21 21:28:08 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-21 21:28:08 | ✅ Scaled to 22 replicas
+2025-11-21 21:28:08 | [Cooldown] Sleeping for 7 mins 29s...
+2025-11-21 21:35:37 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-21 21:35:37 | ✅ Scaled to 16 replicas
+2025-11-21 21:35:37 | [Cooldown] Sleeping for 5 mins 17s...
+2025-11-21 21:40:54 | ⏸️ User traffic stable... (Holding at 16 pods)
+2025-11-21 21:40:54 | ✅ Scaled to 16 replicas
+2025-11-21 21:40:54 | [Cooldown] Sleeping for 5 mins 33s...
+2025-11-21 21:46:27 | ⏸️ User traffic stable... (Holding at 16 pods)
+2025-11-21 21:46:27 | ✅ Scaled to 16 replicas
+2025-11-21 21:46:27 | [Cooldown] Sleeping for 7 mins 43s...
+2025-11-21 21:54:10 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-21 21:54:10 | ✅ Scaled to 10 replicas
+2025-11-21 21:54:10 | [Cooldown] Sleeping for 8 mins 59s...
+2025-11-21 22:03:09 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-21 22:03:09 | ✅ Scaled to 4 replicas
+2025-11-21 22:03:09 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-21 22:03:09 | ✅ Scaled to 10 replicas
+2025-11-21 22:03:09 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-21 22:03:09 | [Step 1/3] Sleeping for 5 mins 8s...
+2025-11-21 22:08:17 | 🚀 Increasing load by 6 pods.
+2025-11-21 22:08:17 | ✅ Scaled to 16 replicas
+2025-11-21 22:08:17 | [Step 2/3] Sleeping for 6 mins 12s...
+2025-11-21 22:14:29 | 🚀 Increasing load by 5 pods.
+2025-11-21 22:14:29 | ✅ Scaled to 21 replicas
+2025-11-21 22:14:29 | [Step 3/3] Sleeping for 7 mins 15s...
+2025-11-21 22:21:44 | 🚀 Increasing load by 7 pods.
+2025-11-21 22:21:44 | ✅ Scaled to 28 replicas
+2025-11-21 22:21:44 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-21 22:21:44 | [Cooldown] Sleeping for 6 mins 52s...
+2025-11-21 22:28:36 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-21 22:28:37 | ✅ Scaled to 23 replicas
+2025-11-21 22:28:37 | [Cooldown] Sleeping for 5 mins 27s...
+2025-11-21 22:34:04 | ⏸️ User traffic stable... (Holding at 23 pods)
+2025-11-21 22:34:04 | ✅ Scaled to 23 replicas
+2025-11-21 22:34:04 | [Cooldown] Sleeping for 9 mins 10s...
+2025-11-21 22:43:14 | ⏸️ User traffic stable... (Holding at 23 pods)
+2025-11-21 22:43:14 | ✅ Scaled to 23 replicas
+2025-11-21 22:43:14 | [Cooldown] Sleeping for 7 mins 12s...
+2025-11-21 22:50:26 | ⏸️ User traffic stable... (Holding at 23 pods)
+2025-11-21 22:50:26 | ✅ Scaled to 23 replicas
+2025-11-21 22:50:26 | [Cooldown] Sleeping for 8 mins 7s...
+2025-11-21 22:58:33 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-21 22:58:33 | ✅ Scaled to 18 replicas
+2025-11-21 22:58:33 | [Cooldown] Sleeping for 7 mins 11s...
+2025-11-21 23:05:44 | 🔻 User traffic dropping... (Removing 9 pods)
+2025-11-21 23:05:44 | ✅ Scaled to 9 replicas
+2025-11-21 23:05:44 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-21 23:05:44 | ✅ Scaled to 10 replicas
+2025-11-21 23:05:44 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-21 23:05:44 | [Step 1/3] Sleeping for 8 mins 32s...
+2025-11-21 23:14:16 | 🚀 Increasing load by 9 pods.
+2025-11-21 23:14:16 | ✅ Scaled to 19 replicas
+2025-11-21 23:14:16 | [Step 2/3] Sleeping for 5 mins 20s...
+2025-11-21 23:19:36 | 🚀 Increasing load by 8 pods.
+2025-11-21 23:19:36 | ✅ Scaled to 27 replicas
+2025-11-21 23:19:36 | [Step 3/3] Sleeping for 5 mins 55s...
+2025-11-21 23:25:31 | 🚀 Increasing load by 8 pods.
+2025-11-21 23:25:31 | ✅ Scaled to 35 replicas
+2025-11-21 23:25:31 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-21 23:25:31 | [Cooldown] Sleeping for 10 mins 0s...
+2025-11-21 23:35:31 | ⏸️ User traffic stable... (Holding at 35 pods)
+2025-11-21 23:35:31 | ✅ Scaled to 35 replicas
+2025-11-21 23:35:31 | [Cooldown] Sleeping for 6 mins 35s...
+2025-11-21 23:42:06 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-21 23:42:06 | ✅ Scaled to 28 replicas
+2025-11-21 23:42:06 | [Cooldown] Sleeping for 6 mins 4s...
+2025-11-21 23:48:10 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-21 23:48:10 | ✅ Scaled to 21 replicas
+2025-11-21 23:48:10 | [Cooldown] Sleeping for 6 mins 30s...
+2025-11-21 23:54:40 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-21 23:54:40 | ✅ Scaled to 13 replicas
+2025-11-21 23:54:40 | [Cooldown] Sleeping for 7 mins 22s...
+2025-11-22 00:02:02 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-22 00:02:02 | ✅ Scaled to 7 replicas
+2025-11-22 00:02:02 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-22 00:02:03 | ✅ Scaled to 10 replicas
+2025-11-22 00:02:03 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-22 00:02:03 | [Step 1/3] Sleeping for 7 mins 9s...
+2025-11-22 00:09:12 | 🚀 Increasing load by 5 pods.
+2025-11-22 00:09:12 | ✅ Scaled to 15 replicas
+2025-11-22 00:09:12 | [Step 2/3] Sleeping for 8 mins 19s...
+2025-11-22 00:17:31 | 🚀 Increasing load by 10 pods.
+2025-11-22 00:17:31 | ✅ Scaled to 25 replicas
+2025-11-22 00:17:31 | [Step 3/3] Sleeping for 7 mins 26s...
+2025-11-22 00:24:57 | 🚀 Increasing load by 5 pods.
+2025-11-22 00:24:57 | ✅ Scaled to 30 replicas
+2025-11-22 00:24:57 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-22 00:24:57 | [Cooldown] Sleeping for 8 mins 0s...
+2025-11-22 00:32:57 | ⏸️ User traffic stable... (Holding at 30 pods)
+2025-11-22 00:32:57 | ✅ Scaled to 30 replicas
+2025-11-22 00:32:57 | [Cooldown] Sleeping for 5 mins 57s...
+2025-11-22 00:38:54 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-22 00:38:54 | ✅ Scaled to 25 replicas
+2025-11-22 00:38:54 | [Cooldown] Sleeping for 5 mins 27s...
+2025-11-22 00:44:21 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-22 00:44:21 | ✅ Scaled to 18 replicas
+2025-11-22 00:44:21 | [Cooldown] Sleeping for 5 mins 54s...
+2025-11-22 00:50:15 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-22 00:50:15 | ✅ Scaled to 10 replicas
+2025-11-22 00:50:15 | [Cooldown] Sleeping for 7 mins 36s...
+2025-11-22 00:57:51 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-22 00:57:51 | ✅ Scaled to 0 replicas
+2025-11-22 00:57:51 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-22 00:57:51 | ✅ Scaled to 10 replicas
+2025-11-22 00:57:51 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-22 00:57:51 | [Step 1/3] Sleeping for 5 mins 14s...
+2025-11-22 01:03:05 | 🚀 Increasing load by 10 pods.
+2025-11-22 01:03:05 | ✅ Scaled to 20 replicas
+2025-11-22 01:03:05 | [Step 2/3] Sleeping for 8 mins 12s...
+2025-11-22 01:11:17 | 🚀 Increasing load by 7 pods.
+2025-11-22 01:11:17 | ✅ Scaled to 27 replicas
+2025-11-22 01:11:17 | [Step 3/3] Sleeping for 9 mins 25s...
+2025-11-22 01:20:42 | 🚀 Increasing load by 5 pods.
+2025-11-22 01:20:42 | ✅ Scaled to 32 replicas
+2025-11-22 01:20:42 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-22 01:20:42 | [Cooldown] Sleeping for 7 mins 10s...
+2025-11-22 01:27:52 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-22 01:27:52 | ✅ Scaled to 22 replicas
+2025-11-22 01:27:52 | [Cooldown] Sleeping for 5 mins 42s...
+2025-11-22 01:33:34 | ⏸️ User traffic stable... (Holding at 22 pods)
+2025-11-22 01:33:35 | ✅ Scaled to 22 replicas
+2025-11-22 01:33:35 | [Cooldown] Sleeping for 9 mins 7s...
+2025-11-22 01:42:42 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-22 01:42:42 | ✅ Scaled to 16 replicas
+2025-11-22 01:42:42 | [Cooldown] Sleeping for 5 mins 25s...
+2025-11-22 01:48:07 | 🔻 User traffic dropping... (Removing 9 pods)
+2025-11-22 01:48:07 | ✅ Scaled to 7 replicas
+2025-11-22 01:48:07 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-22 01:48:07 | ✅ Scaled to 10 replicas
+2025-11-22 01:48:07 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-22 01:48:07 | [Step 1/3] Sleeping for 6 mins 26s...
+2025-11-22 01:54:33 | 🚀 Increasing load by 8 pods.
+2025-11-22 01:54:33 | ✅ Scaled to 18 replicas
+2025-11-22 01:54:33 | [Step 2/3] Sleeping for 5 mins 1s...
+2025-11-22 01:59:34 | 🚀 Increasing load by 6 pods.
+2025-11-22 01:59:34 | ✅ Scaled to 24 replicas
+2025-11-22 01:59:34 | [Step 3/3] Sleeping for 6 mins 36s...
+2025-11-22 02:06:10 | 🚀 Increasing load by 10 pods.
+2025-11-22 02:06:10 | ✅ Scaled to 34 replicas
+2025-11-22 02:06:10 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-22 02:06:10 | [Cooldown] Sleeping for 9 mins 17s...
+2025-11-22 02:15:27 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-22 02:15:27 | ✅ Scaled to 24 replicas
+2025-11-22 02:15:27 | [Cooldown] Sleeping for 8 mins 22s...
+2025-11-22 02:23:49 | 🔻 User traffic dropping... (Removing 9 pods)
+2025-11-22 02:23:49 | ✅ Scaled to 15 replicas
+2025-11-22 02:23:49 | [Cooldown] Sleeping for 9 mins 32s...
+2025-11-22 02:33:21 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-22 02:33:21 | ✅ Scaled to 5 replicas
+2025-11-22 02:33:21 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-22 02:33:21 | ✅ Scaled to 10 replicas
+2025-11-22 02:33:21 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-22 02:33:21 | [Step 1/3] Sleeping for 9 mins 42s...
+2025-11-22 02:43:03 | 🚀 Increasing load by 10 pods.
+2025-11-22 02:43:03 | ✅ Scaled to 20 replicas
+2025-11-22 02:43:03 | [Step 2/3] Sleeping for 8 mins 45s...
+2025-11-22 02:51:48 | 🚀 Increasing load by 7 pods.
+2025-11-22 02:51:48 | ✅ Scaled to 27 replicas
+2025-11-22 02:51:48 | [Step 3/3] Sleeping for 7 mins 58s...
+2025-11-22 02:59:46 | 🚀 Increasing load by 7 pods.
+2025-11-22 02:59:46 | ✅ Scaled to 34 replicas
+2025-11-22 02:59:46 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-22 02:59:46 | [Cooldown] Sleeping for 5 mins 16s...
+2025-11-22 03:05:02 | 🔻 User traffic dropping... (Removing 9 pods)
+2025-11-22 03:05:03 | ✅ Scaled to 25 replicas
+2025-11-22 03:05:03 | [Cooldown] Sleeping for 5 mins 1s...
+2025-11-22 03:10:04 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-22 03:10:04 | ✅ Scaled to 18 replicas
+2025-11-22 03:10:04 | [Cooldown] Sleeping for 5 mins 12s...
+2025-11-22 03:15:16 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-22 03:15:16 | ✅ Scaled to 10 replicas
+2025-11-22 03:15:16 | [Cooldown] Sleeping for 5 mins 6s...
+2025-11-22 03:20:22 | ⏸️ User traffic stable... (Holding at 10 pods)
+2025-11-22 03:20:22 | ✅ Scaled to 10 replicas
+2025-11-22 03:20:22 | [Cooldown] Sleeping for 5 mins 38s...
+2025-11-22 03:26:00 | ⏸️ User traffic stable... (Holding at 10 pods)
+2025-11-22 03:26:00 | ✅ Scaled to 10 replicas
+2025-11-22 03:26:00 | [Cooldown] Sleeping for 9 mins 1s...
+2025-11-22 03:35:01 | ⏸️ User traffic stable... (Holding at 10 pods)
+2025-11-22 03:35:01 | ✅ Scaled to 10 replicas
+2025-11-22 03:35:01 | [Cooldown] Sleeping for 6 mins 37s...
+2025-11-22 03:41:38 | ⏸️ User traffic stable... (Holding at 10 pods)
+2025-11-22 03:41:38 | ✅ Scaled to 10 replicas
+2025-11-22 03:41:38 | [Cooldown] Sleeping for 6 mins 54s...
+2025-11-22 03:48:32 | 🔻 User traffic dropping... (Removing 9 pods)
+2025-11-22 03:48:32 | ✅ Scaled to 1 replicas
+2025-11-22 03:48:32 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-22 03:48:32 | ✅ Scaled to 10 replicas
+2025-11-22 03:48:32 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-22 03:48:32 | [Step 1/3] Sleeping for 7 mins 5s...
+2025-11-22 03:55:37 | 🚀 Increasing load by 6 pods.
+2025-11-22 03:55:37 | ✅ Scaled to 16 replicas
+2025-11-22 03:55:37 | [Step 2/3] Sleeping for 9 mins 46s...
+2025-11-22 04:05:23 | 🚀 Increasing load by 6 pods.
+2025-11-22 04:05:23 | ✅ Scaled to 22 replicas
+2025-11-22 04:05:23 | [Step 3/3] Sleeping for 5 mins 15s...
+2025-11-22 04:10:38 | 🚀 Increasing load by 6 pods.
+2025-11-22 04:10:38 | ✅ Scaled to 28 replicas
+2025-11-22 04:10:38 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-22 04:10:38 | [Cooldown] Sleeping for 9 mins 48s...
+2025-11-22 04:20:26 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-22 04:20:26 | ✅ Scaled to 23 replicas
+2025-11-22 04:20:26 | [Cooldown] Sleeping for 7 mins 8s...
+2025-11-22 04:27:34 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-22 04:27:34 | ✅ Scaled to 18 replicas
+2025-11-22 04:27:34 | [Cooldown] Sleeping for 6 mins 34s...
+2025-11-22 04:34:08 | ⏸️ User traffic stable... (Holding at 18 pods)
+2025-11-22 04:34:09 | ✅ Scaled to 18 replicas
+2025-11-22 04:34:09 | [Cooldown] Sleeping for 5 mins 40s...
+2025-11-22 04:39:49 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-22 04:39:49 | ✅ Scaled to 8 replicas
+2025-11-22 04:39:49 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-22 04:39:49 | ✅ Scaled to 10 replicas
+2025-11-22 04:39:49 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-22 04:39:49 | [Step 1/3] Sleeping for 8 mins 51s...
+2025-11-22 04:48:40 | 🚀 Increasing load by 9 pods.
+2025-11-22 04:48:40 | ✅ Scaled to 19 replicas
+2025-11-22 04:48:40 | [Step 2/3] Sleeping for 9 mins 41s...
+2025-11-22 04:58:21 | 🚀 Increasing load by 7 pods.
+2025-11-22 04:58:21 | ✅ Scaled to 26 replicas
+2025-11-22 04:58:21 | [Step 3/3] Sleeping for 6 mins 46s...
+2025-11-22 05:05:07 | 🚀 Increasing load by 7 pods.
+2025-11-22 05:05:07 | ✅ Scaled to 33 replicas
+2025-11-22 05:05:07 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-22 05:05:07 | [Cooldown] Sleeping for 9 mins 20s...
+2025-11-22 05:14:27 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-22 05:14:27 | ✅ Scaled to 23 replicas
+2025-11-22 05:14:27 | [Cooldown] Sleeping for 6 mins 20s...
+2025-11-22 05:20:47 | ⏸️ User traffic stable... (Holding at 23 pods)
+2025-11-22 05:20:47 | ✅ Scaled to 23 replicas
+2025-11-22 05:20:47 | [Cooldown] Sleeping for 9 mins 27s...
+2025-11-22 05:30:14 | ⏸️ User traffic stable... (Holding at 23 pods)
+2025-11-22 05:30:14 | ✅ Scaled to 23 replicas
+2025-11-22 05:30:14 | [Cooldown] Sleeping for 6 mins 12s...
+2025-11-22 05:36:26 | ⏸️ User traffic stable... (Holding at 23 pods)
+2025-11-22 05:36:26 | ✅ Scaled to 23 replicas
+2025-11-22 05:36:26 | [Cooldown] Sleeping for 6 mins 53s...
+2025-11-22 05:43:19 | ⏸️ User traffic stable... (Holding at 23 pods)
+2025-11-22 05:43:19 | ✅ Scaled to 23 replicas
+2025-11-22 05:43:19 | [Cooldown] Sleeping for 6 mins 28s...
+2025-11-22 05:49:47 | ⏸️ User traffic stable... (Holding at 23 pods)
+2025-11-22 05:49:47 | ✅ Scaled to 23 replicas
+2025-11-22 05:49:47 | [Cooldown] Sleeping for 5 mins 32s...
+2025-11-22 05:55:19 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-22 05:55:19 | ✅ Scaled to 13 replicas
+2025-11-22 05:55:19 | [Cooldown] Sleeping for 8 mins 17s...
+2025-11-22 06:03:36 | ⏸️ User traffic stable... (Holding at 13 pods)
+2025-11-22 06:03:36 | ✅ Scaled to 13 replicas
+2025-11-22 06:03:36 | [Cooldown] Sleeping for 7 mins 36s...
+2025-11-22 06:11:12 | ⏸️ User traffic stable... (Holding at 13 pods)
+2025-11-22 06:11:12 | ✅ Scaled to 13 replicas
+2025-11-22 06:11:12 | [Cooldown] Sleeping for 5 mins 1s...
+2025-11-22 06:16:13 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-22 06:16:14 | ✅ Scaled to 7 replicas
+2025-11-22 06:16:14 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-22 06:16:14 | ✅ Scaled to 10 replicas
+2025-11-22 06:16:14 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-22 06:16:14 | [Step 1/3] Sleeping for 6 mins 19s...
+2025-11-22 06:22:33 | 🚀 Increasing load by 10 pods.
+2025-11-22 06:22:33 | ✅ Scaled to 20 replicas
+2025-11-22 06:22:33 | [Step 2/3] Sleeping for 5 mins 12s...
+2025-11-22 06:27:45 | 🚀 Increasing load by 7 pods.
+2025-11-22 06:27:45 | ✅ Scaled to 27 replicas
+2025-11-22 06:27:45 | [Step 3/3] Sleeping for 7 mins 28s...
+2025-11-22 06:35:13 | 🚀 Increasing load by 7 pods.
+2025-11-22 06:35:13 | ✅ Scaled to 34 replicas
+2025-11-22 06:35:13 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-22 06:35:13 | [Cooldown] Sleeping for 9 mins 15s...
+2025-11-22 06:44:28 | ⏸️ User traffic stable... (Holding at 34 pods)
+2025-11-22 06:44:28 | ✅ Scaled to 34 replicas
+2025-11-22 06:44:28 | [Cooldown] Sleeping for 8 mins 43s...
+2025-11-22 06:53:11 | ⏸️ User traffic stable... (Holding at 34 pods)
+2025-11-22 06:53:11 | ✅ Scaled to 34 replicas
+2025-11-22 06:53:11 | [Cooldown] Sleeping for 6 mins 38s...
+2025-11-22 06:59:49 | ⏸️ User traffic stable... (Holding at 34 pods)
+2025-11-22 06:59:49 | ✅ Scaled to 34 replicas
+2025-11-22 06:59:49 | [Cooldown] Sleeping for 8 mins 7s...
+2025-11-22 07:07:56 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-22 07:07:56 | ✅ Scaled to 26 replicas
+2025-11-22 07:07:56 | [Cooldown] Sleeping for 8 mins 26s...
+2025-11-23 17:03:51 | ==== Human-Like Workload Generator Started ====
+2025-11-23 17:03:51 | ✅ Scaled to 10 replicas
+2025-11-23 17:03:51 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-23 17:03:51 | [Step 1/3] Sleeping for 5 mins 55s...
+2025-11-23 17:09:46 | 🚀 Increasing load by 7 pods.
+2025-11-23 17:09:46 | ✅ Scaled to 17 replicas
+2025-11-23 17:09:46 | [Step 2/3] Sleeping for 5 mins 46s...
+2025-11-23 17:15:32 | 🚀 Increasing load by 6 pods.
+2025-11-23 17:15:32 | ✅ Scaled to 23 replicas
+2025-11-23 17:15:32 | [Step 3/3] Sleeping for 7 mins 12s...
+2025-11-23 17:22:44 | 🚀 Increasing load by 7 pods.
+2025-11-23 17:22:44 | ✅ Scaled to 30 replicas
+2025-11-23 17:22:44 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-23 17:22:44 | [Cooldown] Sleeping for 8 mins 32s...
+2025-11-23 17:31:16 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-23 17:31:16 | ✅ Scaled to 22 replicas
+2025-11-23 17:31:16 | [Cooldown] Sleeping for 5 mins 9s...
+2025-11-23 17:36:25 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-23 17:36:25 | ✅ Scaled to 14 replicas
+2025-11-23 17:36:25 | [Cooldown] Sleeping for 8 mins 6s...
+2025-11-23 17:44:31 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-23 17:44:32 | ✅ Scaled to 4 replicas
+2025-11-23 17:44:32 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-23 17:44:32 | ✅ Scaled to 10 replicas
+2025-11-23 17:44:32 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-23 17:44:32 | [Step 1/3] Sleeping for 5 mins 20s...
+2025-11-23 17:49:52 | 🚀 Increasing load by 9 pods.
+2025-11-23 17:49:52 | ✅ Scaled to 19 replicas
+2025-11-23 17:49:52 | [Step 2/3] Sleeping for 5 mins 14s...
+2025-11-23 17:55:06 | 🚀 Increasing load by 5 pods.
+2025-11-23 17:55:06 | ✅ Scaled to 24 replicas
+2025-11-23 17:55:06 | [Step 3/3] Sleeping for 8 mins 27s...
+2025-11-23 18:03:33 | 🚀 Increasing load by 10 pods.
+2025-11-23 18:03:33 | ✅ Scaled to 34 replicas
+2025-11-23 18:03:33 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-23 18:03:33 | [Cooldown] Sleeping for 5 mins 13s...
+2025-11-23 18:08:46 | ⏸️ User traffic stable... (Holding at 34 pods)
+2025-11-23 18:08:46 | ✅ Scaled to 34 replicas
+2025-11-23 18:08:46 | [Cooldown] Sleeping for 9 mins 11s...
+2025-11-23 18:17:57 | ⏸️ User traffic stable... (Holding at 34 pods)
+2025-11-23 18:17:57 | ✅ Scaled to 34 replicas
+2025-11-23 18:17:57 | [Cooldown] Sleeping for 8 mins 42s...
+2025-11-23 18:26:39 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-23 18:26:39 | ✅ Scaled to 28 replicas
+2025-11-23 18:26:39 | [Cooldown] Sleeping for 7 mins 29s...
+2025-11-23 18:34:08 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-23 18:34:08 | ✅ Scaled to 22 replicas
+2025-11-23 18:34:08 | [Cooldown] Sleeping for 5 mins 54s...
+2025-11-23 18:40:02 | ⏸️ User traffic stable... (Holding at 22 pods)
+2025-11-23 18:40:02 | ✅ Scaled to 22 replicas
+2025-11-23 18:40:02 | [Cooldown] Sleeping for 5 mins 49s...
+2025-11-23 18:45:51 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-23 18:45:51 | ✅ Scaled to 15 replicas
+2025-11-23 18:45:51 | [Cooldown] Sleeping for 7 mins 31s...
+2025-11-23 18:53:22 | ⏸️ User traffic stable... (Holding at 15 pods)
+2025-11-23 18:53:22 | ✅ Scaled to 15 replicas
+2025-11-23 18:53:22 | [Cooldown] Sleeping for 7 mins 40s...
+2025-11-23 19:01:02 | ⏸️ User traffic stable... (Holding at 15 pods)
+2025-11-23 19:01:02 | ✅ Scaled to 15 replicas
+2025-11-23 19:01:02 | [Cooldown] Sleeping for 9 mins 50s...
+2025-11-23 19:10:52 | ⏸️ User traffic stable... (Holding at 15 pods)
+2025-11-23 19:10:52 | ✅ Scaled to 15 replicas
+2025-11-23 19:10:52 | [Cooldown] Sleeping for 5 mins 42s...
+2025-11-23 19:16:34 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-23 19:16:35 | ✅ Scaled to 10 replicas
+2025-11-23 19:16:35 | [Cooldown] Sleeping for 6 mins 16s...
+2025-11-23 19:22:51 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-23 19:22:51 | ✅ Scaled to 2 replicas
+2025-11-23 19:22:51 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-23 19:22:51 | ✅ Scaled to 10 replicas
+2025-11-23 19:22:51 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-23 19:22:51 | [Step 1/3] Sleeping for 6 mins 30s...
+2025-11-23 19:29:21 | 🚀 Increasing load by 9 pods.
+2025-11-23 19:29:21 | ✅ Scaled to 19 replicas
+2025-11-23 19:29:21 | [Step 2/3] Sleeping for 6 mins 39s...
+2025-11-23 19:36:00 | 🚀 Increasing load by 6 pods.
+2025-11-23 19:36:00 | ✅ Scaled to 25 replicas
+2025-11-23 19:36:00 | [Step 3/3] Sleeping for 8 mins 54s...
+2025-11-23 19:44:54 | 🚀 Increasing load by 7 pods.
+2025-11-23 19:44:54 | ✅ Scaled to 32 replicas
+2025-11-23 19:44:54 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-23 19:44:54 | [Cooldown] Sleeping for 5 mins 30s...
+2025-11-23 19:50:24 | ⏸️ User traffic stable... (Holding at 32 pods)
+2025-11-23 19:50:24 | ✅ Scaled to 32 replicas
+2025-11-23 19:50:24 | [Cooldown] Sleeping for 7 mins 46s...
+2025-11-23 19:58:10 | ⏸️ User traffic stable... (Holding at 32 pods)
+2025-11-23 19:58:10 | ✅ Scaled to 32 replicas
+2025-11-23 19:58:10 | [Cooldown] Sleeping for 6 mins 55s...
+2025-11-23 20:05:05 | ⏸️ User traffic stable... (Holding at 32 pods)
+2025-11-23 20:05:05 | ✅ Scaled to 32 replicas
+2025-11-23 20:05:05 | [Cooldown] Sleeping for 9 mins 57s...
+2025-11-23 20:15:02 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-23 20:15:02 | ✅ Scaled to 25 replicas
+2025-11-23 20:15:02 | [Cooldown] Sleeping for 7 mins 38s...
+2025-11-23 20:22:40 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-23 20:22:40 | ✅ Scaled to 15 replicas
+2025-11-23 20:22:40 | [Cooldown] Sleeping for 9 mins 36s...
+2025-11-23 20:32:16 | ⏸️ User traffic stable... (Holding at 15 pods)
+2025-11-23 20:32:16 | ✅ Scaled to 15 replicas
+2025-11-23 20:32:16 | [Cooldown] Sleeping for 6 mins 27s...
+2025-11-23 20:38:43 | ⏸️ User traffic stable... (Holding at 15 pods)
+2025-11-23 20:38:43 | ✅ Scaled to 15 replicas
+2025-11-23 20:38:43 | [Cooldown] Sleeping for 9 mins 32s...
+2025-11-23 20:48:15 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-23 20:48:15 | ✅ Scaled to 8 replicas
+2025-11-23 20:48:15 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-23 20:48:16 | ✅ Scaled to 10 replicas
+2025-11-23 20:48:16 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-23 20:48:16 | [Step 1/3] Sleeping for 5 mins 58s...
+2025-11-23 20:54:14 | 🚀 Increasing load by 10 pods.
+2025-11-23 20:54:14 | ✅ Scaled to 20 replicas
+2025-11-23 20:54:14 | [Step 2/3] Sleeping for 9 mins 49s...
+2025-11-23 21:04:03 | 🚀 Increasing load by 7 pods.
+2025-11-23 21:04:03 | ✅ Scaled to 27 replicas
+2025-11-23 21:04:03 | [Step 3/3] Sleeping for 8 mins 20s...
+2025-11-23 21:12:23 | 🚀 Increasing load by 9 pods.
+2025-11-23 21:12:23 | ✅ Scaled to 36 replicas
+2025-11-23 21:12:23 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-23 21:12:23 | [Cooldown] Sleeping for 7 mins 24s...
+2025-11-23 21:19:47 | ⏸️ User traffic stable... (Holding at 36 pods)
+2025-11-23 21:19:47 | ✅ Scaled to 36 replicas
+2025-11-23 21:19:47 | [Cooldown] Sleeping for 9 mins 4s...
+2025-11-23 21:28:51 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-23 21:28:51 | ✅ Scaled to 26 replicas
+2025-11-23 21:28:51 | [Cooldown] Sleeping for 7 mins 28s...
+2025-11-23 21:36:19 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-23 21:36:19 | ✅ Scaled to 18 replicas
+2025-11-23 21:36:19 | [Cooldown] Sleeping for 9 mins 14s...
+2025-11-23 21:45:33 | ⏸️ User traffic stable... (Holding at 18 pods)
+2025-11-23 21:45:33 | ✅ Scaled to 18 replicas
+2025-11-23 21:45:33 | [Cooldown] Sleeping for 5 mins 2s...
+2025-11-23 21:50:35 | 🔻 User traffic dropping... (Removing 9 pods)
+2025-11-23 21:50:35 | ✅ Scaled to 9 replicas
+2025-11-23 21:50:35 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-23 21:50:35 | ✅ Scaled to 10 replicas
+2025-11-23 21:50:35 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-23 21:50:35 | [Step 1/3] Sleeping for 5 mins 47s...
+2025-11-23 21:56:22 | 🚀 Increasing load by 6 pods.
+2025-11-23 21:56:22 | ✅ Scaled to 16 replicas
+2025-11-23 21:56:22 | [Step 2/3] Sleeping for 5 mins 54s...
+2025-11-23 22:02:16 | 🚀 Increasing load by 6 pods.
+2025-11-23 22:02:16 | ✅ Scaled to 22 replicas
+2025-11-23 22:02:16 | [Step 3/3] Sleeping for 8 mins 2s...
+2025-11-23 22:10:18 | 🚀 Increasing load by 7 pods.
+2025-11-23 22:10:18 | ✅ Scaled to 29 replicas
+2025-11-23 22:10:18 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-23 22:10:18 | [Cooldown] Sleeping for 5 mins 14s...
+2025-11-23 22:15:32 | ⏸️ User traffic stable... (Holding at 29 pods)
+2025-11-23 22:15:32 | ✅ Scaled to 29 replicas
+2025-11-23 22:15:32 | [Cooldown] Sleeping for 7 mins 49s...
+2025-11-23 22:23:21 | ⏸️ User traffic stable... (Holding at 29 pods)
+2025-11-23 22:23:21 | ✅ Scaled to 29 replicas
+2025-11-23 22:23:21 | [Cooldown] Sleeping for 9 mins 48s...
+2025-11-23 22:33:09 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-23 22:33:10 | ✅ Scaled to 23 replicas
+2025-11-23 22:33:10 | [Cooldown] Sleeping for 7 mins 28s...
+2025-11-23 22:40:38 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-23 22:40:38 | ✅ Scaled to 18 replicas
+2025-11-23 22:40:38 | [Cooldown] Sleeping for 5 mins 32s...
+2025-11-23 22:46:10 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-23 22:46:10 | ✅ Scaled to 13 replicas
+2025-11-23 22:46:10 | [Cooldown] Sleeping for 5 mins 49s...
+2025-11-23 22:51:59 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-23 22:51:59 | ✅ Scaled to 7 replicas
+2025-11-23 22:51:59 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-23 22:51:59 | ✅ Scaled to 10 replicas
+2025-11-23 22:51:59 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-23 22:51:59 | [Step 1/3] Sleeping for 7 mins 25s...
+2025-11-23 22:59:24 | 🚀 Increasing load by 9 pods.
+2025-11-23 22:59:24 | ✅ Scaled to 19 replicas
+2025-11-23 22:59:24 | [Step 2/3] Sleeping for 6 mins 38s...
+2025-11-23 23:06:02 | 🚀 Increasing load by 7 pods.
+2025-11-23 23:06:02 | ✅ Scaled to 26 replicas
+2025-11-23 23:06:02 | [Step 3/3] Sleeping for 8 mins 49s...
+2025-11-23 23:14:51 | 🚀 Increasing load by 5 pods.
+2025-11-23 23:14:51 | ✅ Scaled to 31 replicas
+2025-11-23 23:14:51 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-23 23:14:51 | [Cooldown] Sleeping for 9 mins 28s...
+2025-11-23 23:24:19 | ⏸️ User traffic stable... (Holding at 31 pods)
+2025-11-23 23:24:19 | ✅ Scaled to 31 replicas
+2025-11-23 23:24:19 | [Cooldown] Sleeping for 8 mins 47s...
+2025-11-23 23:33:06 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-23 23:33:06 | ✅ Scaled to 23 replicas
+2025-11-23 23:33:06 | [Cooldown] Sleeping for 5 mins 56s...
+2025-11-23 23:39:02 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-23 23:39:02 | ✅ Scaled to 15 replicas
+2025-11-23 23:39:02 | [Cooldown] Sleeping for 7 mins 17s...
+2025-11-23 23:46:19 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-23 23:46:19 | ✅ Scaled to 7 replicas
+2025-11-23 23:46:19 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-23 23:46:19 | ✅ Scaled to 10 replicas
+2025-11-23 23:46:19 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-23 23:46:19 | [Step 1/3] Sleeping for 7 mins 22s...
+2025-11-23 23:53:41 | 🚀 Increasing load by 6 pods.
+2025-11-23 23:53:41 | ✅ Scaled to 16 replicas
+2025-11-23 23:53:41 | [Step 2/3] Sleeping for 5 mins 42s...
+2025-11-23 23:59:23 | 🚀 Increasing load by 10 pods.
+2025-11-23 23:59:24 | ✅ Scaled to 26 replicas
+2025-11-23 23:59:24 | [Step 3/3] Sleeping for 6 mins 54s...
+2025-11-24 00:06:18 | 🚀 Increasing load by 10 pods.
+2025-11-24 00:06:18 | ✅ Scaled to 36 replicas
+2025-11-24 00:06:18 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-24 00:06:18 | [Cooldown] Sleeping for 9 mins 0s...
+2025-11-24 00:15:18 | ⏸️ User traffic stable... (Holding at 36 pods)
+2025-11-24 00:15:18 | ✅ Scaled to 36 replicas
+2025-11-24 00:15:18 | [Cooldown] Sleeping for 7 mins 28s...
+2025-11-24 00:22:46 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-24 00:22:46 | ✅ Scaled to 29 replicas
+2025-11-24 00:22:46 | [Cooldown] Sleeping for 6 mins 24s...
+2025-11-24 00:29:10 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-24 00:29:10 | ✅ Scaled to 19 replicas
+2025-11-24 00:29:10 | [Cooldown] Sleeping for 7 mins 54s...
+2025-11-24 00:37:04 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-24 00:37:04 | ✅ Scaled to 11 replicas
+2025-11-24 00:37:04 | [Cooldown] Sleeping for 8 mins 52s...
+2025-11-24 00:45:56 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-24 00:45:56 | ✅ Scaled to 6 replicas
+2025-11-24 00:45:56 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-24 00:45:56 | ✅ Scaled to 10 replicas
+2025-11-24 00:45:56 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-24 00:45:56 | [Step 1/3] Sleeping for 6 mins 47s...
+2025-11-24 00:52:43 | 🚀 Increasing load by 5 pods.
+2025-11-24 00:52:43 | ✅ Scaled to 15 replicas
+2025-11-24 00:52:43 | [Step 2/3] Sleeping for 5 mins 4s...
+2025-11-24 00:57:47 | 🚀 Increasing load by 7 pods.
+2025-11-24 00:57:47 | ✅ Scaled to 22 replicas
+2025-11-24 00:57:47 | [Step 3/3] Sleeping for 8 mins 51s...
+2025-11-24 01:06:38 | 🚀 Increasing load by 10 pods.
+2025-11-24 01:06:38 | ✅ Scaled to 32 replicas
+2025-11-24 01:06:38 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-24 01:06:38 | [Cooldown] Sleeping for 5 mins 55s...
+2025-11-24 01:12:33 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-24 01:12:33 | ✅ Scaled to 25 replicas
+2025-11-24 01:12:33 | [Cooldown] Sleeping for 8 mins 50s...
+2025-11-24 01:21:23 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-24 01:21:23 | ✅ Scaled to 20 replicas
+2025-11-24 01:21:23 | [Cooldown] Sleeping for 7 mins 36s...
+2025-11-24 01:28:59 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-24 01:28:59 | ✅ Scaled to 15 replicas
+2025-11-24 01:28:59 | [Cooldown] Sleeping for 6 mins 35s...
+2025-11-24 01:35:34 | ⏸️ User traffic stable... (Holding at 15 pods)
+2025-11-24 01:35:35 | ✅ Scaled to 15 replicas
+2025-11-24 01:35:35 | [Cooldown] Sleeping for 8 mins 10s...
+2025-11-24 01:43:45 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-24 01:43:45 | ✅ Scaled to 10 replicas
+2025-11-24 01:43:45 | [Cooldown] Sleeping for 8 mins 41s...
+2025-11-24 01:52:26 | ⏸️ User traffic stable... (Holding at 10 pods)
+2025-11-24 01:52:26 | ✅ Scaled to 10 replicas
+2025-11-24 01:52:26 | [Cooldown] Sleeping for 5 mins 21s...
+2025-11-24 01:57:47 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-24 01:57:47 | ✅ Scaled to 3 replicas
+2025-11-24 01:57:47 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-24 01:57:47 | ✅ Scaled to 10 replicas
+2025-11-24 01:57:47 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-24 01:57:47 | [Step 1/3] Sleeping for 6 mins 17s...
+2025-11-24 02:04:04 | 🚀 Increasing load by 10 pods.
+2025-11-24 02:04:04 | ✅ Scaled to 20 replicas
+2025-11-24 02:04:04 | [Step 2/3] Sleeping for 10 mins 0s...
+2025-11-24 02:14:04 | 🚀 Increasing load by 6 pods.
+2025-11-24 02:14:04 | ✅ Scaled to 26 replicas
+2025-11-24 02:14:04 | [Step 3/3] Sleeping for 9 mins 38s...
+2025-11-24 02:23:42 | 🚀 Increasing load by 5 pods.
+2025-11-24 02:23:42 | ✅ Scaled to 31 replicas
+2025-11-24 02:23:42 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-24 02:23:42 | [Cooldown] Sleeping for 7 mins 27s...
+2025-11-24 02:31:09 | ⏸️ User traffic stable... (Holding at 31 pods)
+2025-11-24 02:31:09 | ✅ Scaled to 31 replicas
+2025-11-24 02:31:09 | [Cooldown] Sleeping for 5 mins 29s...
+2025-11-24 02:36:38 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-24 02:36:38 | ✅ Scaled to 21 replicas
+2025-11-24 02:36:38 | [Cooldown] Sleeping for 7 mins 26s...
+2025-11-24 02:44:04 | ⏸️ User traffic stable... (Holding at 21 pods)
+2025-11-24 02:44:04 | ✅ Scaled to 21 replicas
+2025-11-24 02:44:04 | [Cooldown] Sleeping for 7 mins 15s...
+2025-11-24 02:51:19 | ⏸️ User traffic stable... (Holding at 21 pods)
+2025-11-24 02:51:19 | ✅ Scaled to 21 replicas
+2025-11-24 02:51:19 | [Cooldown] Sleeping for 7 mins 2s...
+2025-11-24 02:58:21 | ⏸️ User traffic stable... (Holding at 21 pods)
+2025-11-24 02:58:21 | ✅ Scaled to 21 replicas
+2025-11-24 02:58:21 | [Cooldown] Sleeping for 6 mins 53s...
+2025-11-24 03:05:14 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-24 03:05:14 | ✅ Scaled to 11 replicas
+2025-11-24 03:05:14 | [Cooldown] Sleeping for 7 mins 13s...
+2025-11-24 03:12:27 | ⏸️ User traffic stable... (Holding at 11 pods)
+2025-11-24 03:12:28 | ✅ Scaled to 11 replicas
+2025-11-24 03:12:28 | [Cooldown] Sleeping for 5 mins 9s...
+2025-11-24 03:17:37 | ⏸️ User traffic stable... (Holding at 11 pods)
+2025-11-24 03:17:37 | ✅ Scaled to 11 replicas
+2025-11-24 03:17:37 | [Cooldown] Sleeping for 9 mins 59s...
+2025-11-24 03:27:36 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-24 03:27:36 | ✅ Scaled to 1 replicas
+2025-11-24 03:27:36 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-24 03:27:36 | ✅ Scaled to 10 replicas
+2025-11-24 03:27:36 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-24 03:27:36 | [Step 1/3] Sleeping for 7 mins 43s...
+2025-11-24 03:35:19 | 🚀 Increasing load by 6 pods.
+2025-11-24 03:35:19 | ✅ Scaled to 16 replicas
+2025-11-24 03:35:19 | [Step 2/3] Sleeping for 7 mins 50s...
+2025-11-24 03:43:09 | 🚀 Increasing load by 8 pods.
+2025-11-24 03:43:09 | ✅ Scaled to 24 replicas
+2025-11-24 03:43:09 | [Step 3/3] Sleeping for 5 mins 58s...
+2025-11-24 03:49:07 | 🚀 Increasing load by 5 pods.
+2025-11-24 03:49:07 | ✅ Scaled to 29 replicas
+2025-11-24 03:49:07 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-24 03:49:07 | [Cooldown] Sleeping for 6 mins 43s...
+2025-11-24 03:55:50 | ⏸️ User traffic stable... (Holding at 29 pods)
+2025-11-24 03:55:50 | ✅ Scaled to 29 replicas
+2025-11-24 03:55:50 | [Cooldown] Sleeping for 5 mins 53s...
+2025-11-24 04:01:43 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-24 04:01:43 | ✅ Scaled to 21 replicas
+2025-11-24 04:01:43 | [Cooldown] Sleeping for 8 mins 24s...
+2025-11-24 04:10:07 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-24 04:10:07 | ✅ Scaled to 16 replicas
+2025-11-24 04:10:07 | [Cooldown] Sleeping for 9 mins 5s...
+2025-11-24 04:19:12 | 🔻 User traffic dropping... (Removing 9 pods)
+2025-11-24 04:19:12 | ✅ Scaled to 7 replicas
+2025-11-24 04:19:12 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-24 04:19:12 | ✅ Scaled to 10 replicas
+2025-11-24 04:19:12 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-24 04:19:12 | [Step 1/3] Sleeping for 9 mins 16s...
+2025-11-24 04:28:28 | 🚀 Increasing load by 10 pods.
+2025-11-24 04:28:28 | ✅ Scaled to 20 replicas
+2025-11-24 04:28:28 | [Step 2/3] Sleeping for 9 mins 43s...
+2025-11-24 04:38:11 | 🚀 Increasing load by 7 pods.
+2025-11-24 04:38:11 | ✅ Scaled to 27 replicas
+2025-11-24 04:38:11 | [Step 3/3] Sleeping for 6 mins 0s...
+2025-11-24 04:44:11 | 🚀 Increasing load by 5 pods.
+2025-11-24 04:44:12 | ✅ Scaled to 32 replicas
+2025-11-24 04:44:12 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-24 04:44:12 | [Cooldown] Sleeping for 8 mins 10s...
+2025-11-24 04:52:22 | ⏸️ User traffic stable... (Holding at 32 pods)
+2025-11-24 04:52:22 | ✅ Scaled to 32 replicas
+2025-11-24 04:52:22 | [Cooldown] Sleeping for 6 mins 24s...
+2025-11-24 04:58:46 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-24 04:58:46 | ✅ Scaled to 24 replicas
+2025-11-24 04:58:46 | [Cooldown] Sleeping for 5 mins 3s...
+2025-11-24 05:03:49 | ⏸️ User traffic stable... (Holding at 24 pods)
+2025-11-24 05:03:49 | ✅ Scaled to 24 replicas
+2025-11-24 05:03:49 | [Cooldown] Sleeping for 7 mins 46s...
+2025-11-24 05:11:35 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-24 05:11:35 | ✅ Scaled to 19 replicas
+2025-11-24 05:11:35 | [Cooldown] Sleeping for 6 mins 6s...
+2025-11-24 05:17:41 | ⏸️ User traffic stable... (Holding at 19 pods)
+2025-11-24 05:17:41 | ✅ Scaled to 19 replicas
+2025-11-24 05:17:41 | [Cooldown] Sleeping for 9 mins 13s...
+2025-11-26 12:20:58 | ==== Human-Like Workload Generator Started ====
+2025-11-26 12:20:59 | ✅ Scaled to 10 replicas
+2025-11-26 12:20:59 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-26 12:20:59 | [Step 1/3] Sleeping for 8 mins 27s...
+2025-11-26 12:29:26 | 🚀 Increasing load by 8 pods.
+2025-11-26 12:29:26 | ✅ Scaled to 18 replicas
+2025-11-26 12:29:26 | [Step 2/3] Sleeping for 5 mins 43s...
+2025-11-26 12:35:09 | 🚀 Increasing load by 6 pods.
+2025-11-26 12:35:09 | ✅ Scaled to 24 replicas
+2025-11-26 12:35:09 | [Step 3/3] Sleeping for 7 mins 55s...
+2025-11-26 12:43:04 | 🚀 Increasing load by 9 pods.
+2025-11-26 12:43:04 | ✅ Scaled to 33 replicas
+2025-11-26 12:43:04 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-26 12:43:04 | [Cooldown] Sleeping for 8 mins 20s...
+2025-11-26 12:51:24 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-26 12:51:24 | ✅ Scaled to 26 replicas
+2025-11-26 12:51:24 | [Cooldown] Sleeping for 8 mins 14s...
+2025-11-26 12:59:38 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-26 12:59:38 | ✅ Scaled to 19 replicas
+2025-11-26 12:59:38 | [Cooldown] Sleeping for 7 mins 50s...
+2025-11-26 13:07:28 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-26 13:07:28 | ✅ Scaled to 9 replicas
+2025-11-26 13:07:28 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-26 13:07:28 | ✅ Scaled to 10 replicas
+2025-11-26 13:07:28 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-26 13:07:28 | [Step 1/3] Sleeping for 7 mins 50s...
+2025-11-26 13:15:18 | 🚀 Increasing load by 8 pods.
+2025-11-26 13:15:18 | ✅ Scaled to 18 replicas
+2025-11-26 13:15:18 | [Step 2/3] Sleeping for 7 mins 20s...
+2025-11-26 13:22:38 | 🚀 Increasing load by 8 pods.
+2025-11-26 13:22:38 | ✅ Scaled to 26 replicas
+2025-11-26 13:22:38 | [Step 3/3] Sleeping for 5 mins 8s...
+2025-11-26 13:27:46 | 🚀 Increasing load by 6 pods.
+2025-11-26 13:27:46 | ✅ Scaled to 32 replicas
+2025-11-26 13:27:46 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-26 13:27:46 | [Cooldown] Sleeping for 8 mins 36s...
+2025-11-26 13:36:22 | ⏸️ User traffic stable... (Holding at 32 pods)
+2025-11-26 13:36:22 | ✅ Scaled to 32 replicas
+2025-11-26 13:36:22 | [Cooldown] Sleeping for 6 mins 26s...
+2025-11-26 13:42:48 | ⏸️ User traffic stable... (Holding at 32 pods)
+2025-11-26 13:42:48 | ✅ Scaled to 32 replicas
+2025-11-26 13:42:48 | [Cooldown] Sleeping for 6 mins 59s...
+2025-11-26 13:49:47 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-26 13:49:47 | ✅ Scaled to 26 replicas
+2025-11-26 13:49:47 | [Cooldown] Sleeping for 8 mins 34s...
+2025-11-26 13:58:21 | ⏸️ User traffic stable... (Holding at 26 pods)
+2025-11-26 13:58:22 | ✅ Scaled to 26 replicas
+2025-11-26 13:58:22 | [Cooldown] Sleeping for 5 mins 32s...
+2025-11-26 14:03:54 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-26 14:03:54 | ✅ Scaled to 20 replicas
+2025-11-26 14:03:54 | [Cooldown] Sleeping for 9 mins 13s...
+2025-11-26 14:13:07 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-26 14:13:07 | ✅ Scaled to 12 replicas
+2025-11-26 14:13:07 | [Cooldown] Sleeping for 8 mins 36s...
+2025-11-26 14:21:43 | ⏸️ User traffic stable... (Holding at 12 pods)
+2025-11-26 14:21:43 | ✅ Scaled to 12 replicas
+2025-11-26 14:21:43 | [Cooldown] Sleeping for 7 mins 17s...
+2025-11-26 14:29:00 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-26 14:29:00 | ✅ Scaled to 5 replicas
+2025-11-26 14:29:00 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-26 14:29:00 | ✅ Scaled to 10 replicas
+2025-11-26 14:29:00 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-26 14:29:00 | [Step 1/3] Sleeping for 5 mins 19s...
+2025-11-26 14:34:19 | 🚀 Increasing load by 10 pods.
+2025-11-26 14:34:19 | ✅ Scaled to 20 replicas
+2025-11-26 14:34:19 | [Step 2/3] Sleeping for 6 mins 49s...
+2025-11-26 14:41:08 | 🚀 Increasing load by 9 pods.
+2025-11-26 14:41:08 | ✅ Scaled to 29 replicas
+2025-11-26 14:41:08 | [Step 3/3] Sleeping for 5 mins 14s...
+2025-11-26 14:46:22 | 🚀 Increasing load by 7 pods.
+2025-11-26 14:46:22 | ✅ Scaled to 36 replicas
+2025-11-26 14:46:22 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-26 14:46:22 | [Cooldown] Sleeping for 8 mins 3s...
+2025-11-26 14:54:25 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-26 14:54:25 | ✅ Scaled to 30 replicas
+2025-11-26 14:54:25 | [Cooldown] Sleeping for 7 mins 30s...
+2025-11-26 15:01:55 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-26 15:01:55 | ✅ Scaled to 25 replicas
+2025-11-26 15:01:55 | [Cooldown] Sleeping for 6 mins 56s...
+2025-11-26 15:08:51 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-26 15:08:51 | ✅ Scaled to 19 replicas
+2025-11-26 15:08:51 | [Cooldown] Sleeping for 6 mins 40s...
+2025-11-26 15:15:31 | ⏸️ User traffic stable... (Holding at 19 pods)
+2025-11-26 15:15:31 | ✅ Scaled to 19 replicas
+2025-11-26 15:15:31 | [Cooldown] Sleeping for 9 mins 10s...
+2025-11-26 15:24:41 | 🔻 User traffic dropping... (Removing 9 pods)
+2025-11-26 15:24:41 | ✅ Scaled to 10 replicas
+2025-11-26 15:24:41 | [Cooldown] Sleeping for 8 mins 41s...
+2025-11-26 15:33:22 | 🔻 User traffic dropping... (Removing 9 pods)
+2025-11-26 15:33:23 | ✅ Scaled to 1 replicas
+2025-11-26 15:33:23 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-26 15:33:23 | ✅ Scaled to 10 replicas
+2025-11-26 15:33:23 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-26 15:33:23 | [Step 1/3] Sleeping for 6 mins 15s...
+2025-11-26 15:39:38 | 🚀 Increasing load by 6 pods.
+2025-11-26 15:39:38 | ✅ Scaled to 16 replicas
+2025-11-26 15:39:38 | [Step 2/3] Sleeping for 7 mins 8s...
+2025-11-26 15:46:46 | 🚀 Increasing load by 7 pods.
+2025-11-26 15:46:46 | ✅ Scaled to 23 replicas
+2025-11-26 15:46:46 | [Step 3/3] Sleeping for 9 mins 38s...
+2025-11-26 15:56:24 | 🚀 Increasing load by 9 pods.
+2025-11-26 15:56:24 | ✅ Scaled to 32 replicas
+2025-11-26 15:56:24 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-26 15:56:24 | [Cooldown] Sleeping for 9 mins 26s...
+2025-11-26 16:05:50 | 🔻 User traffic dropping... (Removing 9 pods)
+2025-11-26 16:05:50 | ✅ Scaled to 23 replicas
+2025-11-26 16:05:50 | [Cooldown] Sleeping for 8 mins 41s...
+2025-11-26 16:14:31 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-26 16:14:31 | ✅ Scaled to 13 replicas
+2025-11-26 16:14:31 | [Cooldown] Sleeping for 5 mins 34s...
+2025-11-26 16:20:05 | ⏸️ User traffic stable... (Holding at 13 pods)
+2025-11-26 16:20:05 | ✅ Scaled to 13 replicas
+2025-11-26 16:20:05 | [Cooldown] Sleeping for 8 mins 30s...
+2025-11-26 16:28:35 | ⏸️ User traffic stable... (Holding at 13 pods)
+2025-11-26 16:28:35 | ✅ Scaled to 13 replicas
+2025-11-26 16:28:35 | [Cooldown] Sleeping for 7 mins 22s...
+2025-11-26 16:35:57 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-26 16:35:57 | ✅ Scaled to 7 replicas
+2025-11-26 16:35:57 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-26 16:35:57 | ✅ Scaled to 10 replicas
+2025-11-26 16:35:57 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-26 16:35:57 | [Step 1/3] Sleeping for 6 mins 23s...
+2025-11-26 16:42:20 | 🚀 Increasing load by 6 pods.
+2025-11-26 16:42:20 | ✅ Scaled to 16 replicas
+2025-11-26 16:42:20 | [Step 2/3] Sleeping for 10 mins 0s...
+2025-11-26 16:52:20 | 🚀 Increasing load by 6 pods.
+2025-11-26 16:52:20 | ✅ Scaled to 22 replicas
+2025-11-26 16:52:20 | [Step 3/3] Sleeping for 5 mins 35s...
+2025-11-26 16:57:55 | 🚀 Increasing load by 10 pods.
+2025-11-26 16:57:55 | ✅ Scaled to 32 replicas
+2025-11-26 16:57:55 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-26 16:57:55 | [Cooldown] Sleeping for 5 mins 15s...
+2025-11-26 17:03:10 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-26 17:03:11 | ✅ Scaled to 25 replicas
+2025-11-26 17:03:11 | [Cooldown] Sleeping for 5 mins 59s...
+2025-11-26 17:09:10 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-26 17:09:10 | ✅ Scaled to 18 replicas
+2025-11-26 17:09:10 | [Cooldown] Sleeping for 8 mins 38s...
+2025-11-26 17:17:48 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-26 17:17:48 | ✅ Scaled to 11 replicas
+2025-11-26 17:17:48 | [Cooldown] Sleeping for 5 mins 46s...
+2025-11-26 17:23:34 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-26 17:23:34 | ✅ Scaled to 4 replicas
+2025-11-26 17:23:34 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-26 17:23:34 | ✅ Scaled to 10 replicas
+2025-11-26 17:23:34 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-26 17:23:34 | [Step 1/3] Sleeping for 9 mins 59s...
+2025-11-26 17:33:33 | 🚀 Increasing load by 7 pods.
+2025-11-26 17:33:33 | ✅ Scaled to 17 replicas
+2025-11-26 17:33:33 | [Step 2/3] Sleeping for 7 mins 51s...
+2025-11-26 17:41:24 | 🚀 Increasing load by 5 pods.
+2025-11-26 17:41:24 | ✅ Scaled to 22 replicas
+2025-11-26 17:41:24 | [Step 3/3] Sleeping for 5 mins 12s...
+2025-11-26 17:46:36 | 🚀 Increasing load by 10 pods.
+2025-11-26 17:46:36 | ✅ Scaled to 32 replicas
+2025-11-26 17:46:36 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-26 17:46:36 | [Cooldown] Sleeping for 5 mins 25s...
+2025-11-26 17:52:01 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-26 17:52:01 | ✅ Scaled to 22 replicas
+2025-11-26 17:52:01 | [Cooldown] Sleeping for 5 mins 52s...
+2025-11-26 17:57:53 | ⏸️ User traffic stable... (Holding at 22 pods)
+2025-11-26 17:57:53 | ✅ Scaled to 22 replicas
+2025-11-26 17:57:53 | [Cooldown] Sleeping for 6 mins 24s...
+2025-11-26 18:04:17 | ⏸️ User traffic stable... (Holding at 22 pods)
+2025-11-26 18:04:17 | ✅ Scaled to 22 replicas
+2025-11-26 18:04:17 | [Cooldown] Sleeping for 9 mins 21s...
+2025-11-26 18:13:38 | ⏸️ User traffic stable... (Holding at 22 pods)
+2025-11-26 18:13:38 | ✅ Scaled to 22 replicas
+2025-11-26 18:13:38 | [Cooldown] Sleeping for 5 mins 2s...
+2025-11-26 18:18:40 | ⏸️ User traffic stable... (Holding at 22 pods)
+2025-11-26 18:18:40 | ✅ Scaled to 22 replicas
+2025-11-26 18:18:40 | [Cooldown] Sleeping for 6 mins 8s...
+2025-11-26 18:24:48 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-26 18:24:48 | ✅ Scaled to 12 replicas
+2025-11-26 18:24:48 | [Cooldown] Sleeping for 5 mins 28s...
+2025-11-27 13:05:05 | ==== Human-Like Workload Generator Started ====
+2025-11-27 13:05:05 | ✅ Scaled to 10 replicas
+2025-11-27 13:05:05 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-27 13:05:05 | [Step 1/3] Sleeping for 8 mins 52s...
+2025-11-27 13:13:57 | 🚀 Increasing load by 9 pods.
+2025-11-27 13:13:57 | ✅ Scaled to 19 replicas
+2025-11-27 13:13:57 | [Step 2/3] Sleeping for 9 mins 30s...
+2025-11-27 13:23:27 | 🚀 Increasing load by 9 pods.
+2025-11-27 13:23:27 | ✅ Scaled to 28 replicas
+2025-11-27 13:23:27 | [Step 3/3] Sleeping for 9 mins 53s...
+2025-11-27 13:33:20 | 🚀 Increasing load by 7 pods.
+2025-11-27 13:33:20 | ✅ Scaled to 35 replicas
+2025-11-27 13:33:20 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-27 13:33:20 | [Cooldown] Sleeping for 9 mins 5s...
+2025-11-27 13:42:25 | ⏸️ User traffic stable... (Holding at 35 pods)
+2025-11-27 13:42:25 | ✅ Scaled to 35 replicas
+2025-11-27 13:42:25 | [Cooldown] Sleeping for 7 mins 16s...
+2025-11-27 13:49:41 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-27 13:49:41 | ✅ Scaled to 25 replicas
+2025-11-27 13:49:41 | [Cooldown] Sleeping for 8 mins 16s...
+2025-11-27 13:57:57 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-27 13:57:57 | ✅ Scaled to 15 replicas
+2025-11-27 13:57:57 | [Cooldown] Sleeping for 7 mins 4s...
+2025-11-27 14:05:01 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-27 14:05:02 | ✅ Scaled to 10 replicas
+2025-11-27 14:05:02 | [Cooldown] Sleeping for 8 mins 15s...
+2025-11-27 14:13:17 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-27 14:13:17 | ✅ Scaled to 0 replicas
+2025-11-27 14:13:17 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-27 14:13:17 | ✅ Scaled to 10 replicas
+2025-11-27 14:13:17 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-27 14:13:17 | [Step 1/3] Sleeping for 9 mins 18s...
+2025-11-27 14:22:35 | 🚀 Increasing load by 7 pods.
+2025-11-27 14:22:35 | ✅ Scaled to 17 replicas
+2025-11-27 14:22:35 | [Step 2/3] Sleeping for 6 mins 33s...
+2025-11-27 14:29:08 | 🚀 Increasing load by 9 pods.
+2025-11-27 14:29:08 | ✅ Scaled to 26 replicas
+2025-11-27 14:29:08 | [Step 3/3] Sleeping for 5 mins 6s...
+2025-11-27 14:34:14 | 🚀 Increasing load by 10 pods.
+2025-11-27 14:34:14 | ✅ Scaled to 36 replicas
+2025-11-27 14:34:14 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-27 14:34:14 | [Cooldown] Sleeping for 7 mins 52s...
+2025-11-27 14:42:06 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-27 14:42:06 | ✅ Scaled to 31 replicas
+2025-11-27 14:42:06 | [Cooldown] Sleeping for 9 mins 1s...
+2025-11-27 14:51:07 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-27 14:51:07 | ✅ Scaled to 23 replicas
+2025-11-27 14:51:07 | [Cooldown] Sleeping for 5 mins 29s...
+2025-11-27 14:56:36 | ⏸️ User traffic stable... (Holding at 23 pods)
+2025-11-27 14:56:36 | ✅ Scaled to 23 replicas
+2025-11-27 14:56:36 | [Cooldown] Sleeping for 9 mins 52s...
+2025-11-27 15:06:28 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-27 15:06:28 | ✅ Scaled to 16 replicas
+2025-11-27 15:06:28 | [Cooldown] Sleeping for 9 mins 5s...
+2025-11-27 15:15:33 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-27 15:15:33 | ✅ Scaled to 10 replicas
+2025-11-27 15:15:33 | [Cooldown] Sleeping for 5 mins 12s...
+2025-11-27 15:20:45 | ⏸️ User traffic stable... (Holding at 10 pods)
+2025-11-27 15:20:45 | ✅ Scaled to 10 replicas
+2025-11-27 15:20:45 | [Cooldown] Sleeping for 9 mins 45s...
+2025-11-27 15:30:30 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-27 15:30:30 | ✅ Scaled to 4 replicas
+2025-11-27 15:30:30 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-27 15:30:30 | ✅ Scaled to 10 replicas
+2025-11-27 15:30:30 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-27 15:30:30 | [Step 1/3] Sleeping for 8 mins 14s...
+2025-11-27 15:38:44 | 🚀 Increasing load by 9 pods.
+2025-11-27 15:38:45 | ✅ Scaled to 19 replicas
+2025-11-27 15:38:45 | [Step 2/3] Sleeping for 5 mins 22s...
+2025-11-27 15:44:07 | 🚀 Increasing load by 5 pods.
+2025-11-27 15:44:07 | ✅ Scaled to 24 replicas
+2025-11-27 15:44:07 | [Step 3/3] Sleeping for 7 mins 24s...
+2025-11-27 15:51:31 | 🚀 Increasing load by 10 pods.
+2025-11-27 15:51:31 | ✅ Scaled to 34 replicas
+2025-11-27 15:51:31 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-27 15:51:31 | [Cooldown] Sleeping for 8 mins 9s...
+2025-11-27 15:59:40 | ⏸️ User traffic stable... (Holding at 34 pods)
+2025-11-27 15:59:40 | ✅ Scaled to 34 replicas
+2025-11-27 15:59:40 | [Cooldown] Sleeping for 7 mins 40s...
+2025-11-27 16:07:20 | ⏸️ User traffic stable... (Holding at 34 pods)
+2025-11-27 16:07:20 | ✅ Scaled to 34 replicas
+2025-11-27 16:07:20 | [Cooldown] Sleeping for 6 mins 13s...
+2025-11-27 16:13:33 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-27 16:13:33 | ✅ Scaled to 28 replicas
+2025-11-27 16:13:33 | [Cooldown] Sleeping for 9 mins 19s...
+2025-11-27 16:22:52 | ⏸️ User traffic stable... (Holding at 28 pods)
+2025-11-27 16:22:52 | ✅ Scaled to 28 replicas
+2025-11-27 16:22:52 | [Cooldown] Sleeping for 8 mins 36s...
+2025-11-27 16:31:28 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-27 16:31:28 | ✅ Scaled to 21 replicas
+2025-11-27 16:31:28 | [Cooldown] Sleeping for 9 mins 36s...
+2025-11-27 16:41:04 | ⏸️ User traffic stable... (Holding at 21 pods)
+2025-11-27 16:41:04 | ✅ Scaled to 21 replicas
+2025-11-27 16:41:04 | [Cooldown] Sleeping for 6 mins 4s...
+2025-11-27 16:47:08 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-27 16:47:08 | ✅ Scaled to 13 replicas
+2025-11-27 16:47:08 | [Cooldown] Sleeping for 8 mins 41s...
+2025-11-27 16:55:49 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-27 16:55:49 | ✅ Scaled to 3 replicas
+2025-11-27 16:55:49 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-27 16:55:49 | ✅ Scaled to 10 replicas
+2025-11-27 16:55:49 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-27 16:55:49 | [Step 1/3] Sleeping for 8 mins 14s...
+2025-11-27 17:04:03 | 🚀 Increasing load by 10 pods.
+2025-11-27 17:04:03 | ✅ Scaled to 20 replicas
+2025-11-27 17:04:03 | [Step 2/3] Sleeping for 8 mins 7s...
+2025-11-27 17:12:10 | 🚀 Increasing load by 6 pods.
+2025-11-27 17:12:10 | ✅ Scaled to 26 replicas
+2025-11-27 17:12:10 | [Step 3/3] Sleeping for 5 mins 11s...
+2025-11-27 17:17:21 | 🚀 Increasing load by 7 pods.
+2025-11-27 17:17:22 | ✅ Scaled to 33 replicas
+2025-11-27 17:17:22 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-27 17:17:22 | [Cooldown] Sleeping for 8 mins 8s...
+2025-11-27 17:25:30 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-27 17:25:30 | ✅ Scaled to 27 replicas
+2025-11-27 17:25:30 | [Cooldown] Sleeping for 7 mins 8s...
+2025-11-27 17:32:38 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-27 17:32:38 | ✅ Scaled to 19 replicas
+2025-11-27 17:32:38 | [Cooldown] Sleeping for 7 mins 40s...
+2025-11-27 17:40:18 | ⏸️ User traffic stable... (Holding at 19 pods)
+2025-11-27 17:40:18 | ✅ Scaled to 19 replicas
+2025-11-27 17:40:18 | [Cooldown] Sleeping for 5 mins 41s...
+2025-11-27 17:45:59 | ⏸️ User traffic stable... (Holding at 19 pods)
+2025-11-27 17:45:59 | ✅ Scaled to 19 replicas
+2025-11-27 17:45:59 | [Cooldown] Sleeping for 6 mins 34s...
+2025-11-27 17:52:33 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-27 17:52:33 | ✅ Scaled to 11 replicas
+2025-11-27 17:52:33 | [Cooldown] Sleeping for 6 mins 49s...
+2025-11-27 17:59:22 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-27 17:59:22 | ✅ Scaled to 5 replicas
+2025-11-27 17:59:22 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-27 17:59:22 | ✅ Scaled to 10 replicas
+2025-11-27 17:59:22 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-27 17:59:22 | [Step 1/3] Sleeping for 5 mins 47s...
+2025-11-27 18:05:09 | 🚀 Increasing load by 10 pods.
+2025-11-27 18:05:09 | ✅ Scaled to 20 replicas
+2025-11-27 18:05:09 | [Step 2/3] Sleeping for 9 mins 0s...
+2025-11-27 18:14:09 | 🚀 Increasing load by 5 pods.
+2025-11-27 18:14:09 | ✅ Scaled to 25 replicas
+2025-11-27 18:14:09 | [Step 3/3] Sleeping for 8 mins 20s...
+2025-11-27 18:22:29 | 🚀 Increasing load by 10 pods.
+2025-11-27 18:22:29 | ✅ Scaled to 35 replicas
+2025-11-27 18:22:29 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-27 18:22:29 | [Cooldown] Sleeping for 7 mins 13s...
+2025-11-27 18:29:42 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-27 18:29:42 | ✅ Scaled to 29 replicas
+2025-11-27 18:29:42 | [Cooldown] Sleeping for 9 mins 41s...
+2025-11-27 18:39:23 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-27 18:39:23 | ✅ Scaled to 22 replicas
+2025-11-27 18:39:23 | [Cooldown] Sleeping for 5 mins 57s...
+2025-11-27 18:45:20 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-27 18:45:20 | ✅ Scaled to 14 replicas
+2025-11-27 18:45:20 | [Cooldown] Sleeping for 7 mins 7s...
+2025-11-27 18:52:27 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-27 18:52:28 | ✅ Scaled to 4 replicas
+2025-11-27 18:52:28 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-27 18:52:28 | ✅ Scaled to 10 replicas
+2025-11-27 18:52:28 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-27 18:52:28 | [Step 1/3] Sleeping for 7 mins 19s...
+2025-11-27 18:59:47 | 🚀 Increasing load by 6 pods.
+2025-11-27 18:59:47 | ✅ Scaled to 16 replicas
+2025-11-27 18:59:47 | [Step 2/3] Sleeping for 8 mins 8s...
+2025-11-27 19:07:55 | 🚀 Increasing load by 8 pods.
+2025-11-27 19:07:55 | ✅ Scaled to 24 replicas
+2025-11-27 19:07:55 | [Step 3/3] Sleeping for 6 mins 36s...
+2025-11-27 19:14:31 | 🚀 Increasing load by 10 pods.
+2025-11-27 19:14:31 | ✅ Scaled to 34 replicas
+2025-11-27 19:14:31 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-27 19:14:31 | [Cooldown] Sleeping for 7 mins 55s...
+2025-11-27 19:22:26 | 🔻 User traffic dropping... (Removing 9 pods)
+2025-11-27 19:22:26 | ✅ Scaled to 25 replicas
+2025-11-27 19:22:26 | [Cooldown] Sleeping for 7 mins 47s...
+2025-11-27 19:30:13 | ⏸️ User traffic stable... (Holding at 25 pods)
+2025-11-27 19:30:13 | ✅ Scaled to 25 replicas
+2025-11-27 19:30:13 | [Cooldown] Sleeping for 8 mins 35s...
+2025-11-27 19:38:48 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-27 19:38:48 | ✅ Scaled to 15 replicas
+2025-11-27 19:38:48 | [Cooldown] Sleeping for 5 mins 59s...
+2025-11-27 19:44:47 | ⏸️ User traffic stable... (Holding at 15 pods)
+2025-11-27 19:44:47 | ✅ Scaled to 15 replicas
+2025-11-27 19:44:47 | [Cooldown] Sleeping for 9 mins 12s...
+2025-11-27 19:53:59 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-27 19:53:59 | ✅ Scaled to 5 replicas
+2025-11-27 19:53:59 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-27 19:53:59 | ✅ Scaled to 10 replicas
+2025-11-27 19:53:59 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-27 19:53:59 | [Step 1/3] Sleeping for 6 mins 5s...
+2025-11-27 20:00:04 | 🚀 Increasing load by 5 pods.
+2025-11-27 20:00:04 | ✅ Scaled to 15 replicas
+2025-11-27 20:00:04 | [Step 2/3] Sleeping for 5 mins 45s...
+2025-11-27 20:05:49 | 🚀 Increasing load by 6 pods.
+2025-11-27 20:05:49 | ✅ Scaled to 21 replicas
+2025-11-27 20:05:49 | [Step 3/3] Sleeping for 6 mins 30s...
+2025-11-27 20:12:19 | 🚀 Increasing load by 5 pods.
+2025-11-27 20:12:19 | ✅ Scaled to 26 replicas
+2025-11-27 20:12:19 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-27 20:12:19 | [Cooldown] Sleeping for 8 mins 45s...
+2025-11-27 20:21:04 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-27 20:21:05 | ✅ Scaled to 16 replicas
+2025-11-27 20:21:05 | [Cooldown] Sleeping for 9 mins 9s...
+2025-11-27 20:30:14 | ⏸️ User traffic stable... (Holding at 16 pods)
+2025-11-27 20:30:14 | ✅ Scaled to 16 replicas
+2025-11-27 20:30:14 | [Cooldown] Sleeping for 7 mins 38s...
+2025-11-27 20:37:52 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-27 20:37:52 | ✅ Scaled to 10 replicas
+2025-11-27 20:37:52 | [Cooldown] Sleeping for 8 mins 3s...
+2025-11-27 20:45:55 | ⏸️ User traffic stable... (Holding at 10 pods)
+2025-11-27 20:45:55 | ✅ Scaled to 10 replicas
+2025-11-27 20:45:55 | [Cooldown] Sleeping for 8 mins 22s...
+2025-11-27 20:54:17 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-27 20:54:17 | ✅ Scaled to 2 replicas
+2025-11-27 20:54:17 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-27 20:54:17 | ✅ Scaled to 10 replicas
+2025-11-27 20:54:17 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-27 20:54:17 | [Step 1/3] Sleeping for 8 mins 5s...
+2025-11-27 21:02:22 | 🚀 Increasing load by 9 pods.
+2025-11-27 21:02:22 | ✅ Scaled to 19 replicas
+2025-11-27 21:02:22 | [Step 2/3] Sleeping for 5 mins 8s...
+2025-11-27 21:07:30 | 🚀 Increasing load by 10 pods.
+2025-11-27 21:07:30 | ✅ Scaled to 29 replicas
+2025-11-27 21:07:30 | [Step 3/3] Sleeping for 7 mins 21s...
+2025-11-27 21:14:51 | 🚀 Increasing load by 6 pods.
+2025-11-27 21:14:51 | ✅ Scaled to 35 replicas
+2025-11-27 21:14:51 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-27 21:14:51 | [Cooldown] Sleeping for 5 mins 20s...
+2025-11-27 21:20:11 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-27 21:20:11 | ✅ Scaled to 27 replicas
+2025-11-27 21:20:11 | [Cooldown] Sleeping for 7 mins 51s...
+2025-11-27 21:28:02 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-27 21:28:02 | ✅ Scaled to 20 replicas
+2025-11-27 21:28:02 | [Cooldown] Sleeping for 5 mins 22s...
+2025-11-27 21:33:24 | 🔻 User traffic dropping... (Removing 9 pods)
+2025-11-27 21:33:24 | ✅ Scaled to 11 replicas
+2025-11-27 21:33:24 | [Cooldown] Sleeping for 9 mins 21s...
+2025-11-27 21:42:45 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-27 21:42:45 | ✅ Scaled to 4 replicas
+2025-11-27 21:42:45 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-27 21:42:45 | ✅ Scaled to 10 replicas
+2025-11-27 21:42:45 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-27 21:42:45 | [Step 1/3] Sleeping for 8 mins 5s...
+2025-11-27 21:50:50 | 🚀 Increasing load by 9 pods.
+2025-11-27 21:50:51 | ✅ Scaled to 19 replicas
+2025-11-27 21:50:51 | [Step 2/3] Sleeping for 7 mins 7s...
+2025-11-27 21:57:58 | 🚀 Increasing load by 7 pods.
+2025-11-27 21:57:58 | ✅ Scaled to 26 replicas
+2025-11-27 21:57:58 | [Step 3/3] Sleeping for 7 mins 19s...
+2025-11-27 22:05:17 | 🚀 Increasing load by 8 pods.
+2025-11-27 22:05:17 | ✅ Scaled to 34 replicas
+2025-11-27 22:05:17 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-27 22:05:17 | [Cooldown] Sleeping for 7 mins 56s...
+2025-11-27 22:13:13 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-27 22:13:13 | ✅ Scaled to 24 replicas
+2025-11-27 22:13:13 | [Cooldown] Sleeping for 5 mins 9s...
+2025-11-27 22:18:22 | ⏸️ User traffic stable... (Holding at 24 pods)
+2025-11-27 22:18:22 | ✅ Scaled to 24 replicas
+2025-11-27 22:18:22 | [Cooldown] Sleeping for 6 mins 17s...
+2025-11-27 22:24:39 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-27 22:24:39 | ✅ Scaled to 16 replicas
+2025-11-27 22:24:39 | [Cooldown] Sleeping for 8 mins 36s...
+2025-11-27 22:33:15 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-27 22:33:15 | ✅ Scaled to 8 replicas
+2025-11-27 22:33:15 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-27 22:33:15 | ✅ Scaled to 10 replicas
+2025-11-27 22:33:15 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-27 22:33:15 | [Step 1/3] Sleeping for 5 mins 39s...
+2025-11-27 22:38:54 | 🚀 Increasing load by 9 pods.
+2025-11-27 22:38:54 | ✅ Scaled to 19 replicas
+2025-11-27 22:38:54 | [Step 2/3] Sleeping for 9 mins 54s...
+2025-11-27 22:48:48 | 🚀 Increasing load by 7 pods.
+2025-11-27 22:48:48 | ✅ Scaled to 26 replicas
+2025-11-27 22:48:48 | [Step 3/3] Sleeping for 9 mins 21s...
+2025-11-27 22:58:09 | 🚀 Increasing load by 9 pods.
+2025-11-27 22:58:09 | ✅ Scaled to 35 replicas
+2025-11-27 22:58:09 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-27 22:58:09 | [Cooldown] Sleeping for 8 mins 45s...
+2025-11-27 23:06:54 | ⏸️ User traffic stable... (Holding at 35 pods)
+2025-11-27 23:06:54 | ✅ Scaled to 35 replicas
+2025-11-27 23:06:54 | [Cooldown] Sleeping for 7 mins 17s...
+2025-11-27 23:14:11 | ⏸️ User traffic stable... (Holding at 35 pods)
+2025-11-27 23:14:11 | ✅ Scaled to 35 replicas
+2025-11-27 23:14:11 | [Cooldown] Sleeping for 5 mins 13s...
+2025-11-27 23:19:24 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-27 23:19:24 | ✅ Scaled to 30 replicas
+2025-11-27 23:19:24 | [Cooldown] Sleeping for 5 mins 33s...
+2025-11-27 23:24:57 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-27 23:24:58 | ✅ Scaled to 23 replicas
+2025-11-27 23:24:58 | [Cooldown] Sleeping for 5 mins 58s...
+2025-11-27 23:30:56 | ⏸️ User traffic stable... (Holding at 23 pods)
+2025-11-27 23:30:56 | ✅ Scaled to 23 replicas
+2025-11-27 23:30:56 | [Cooldown] Sleeping for 5 mins 45s...
+2025-11-27 23:36:41 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-27 23:36:41 | ✅ Scaled to 18 replicas
+2025-11-27 23:36:41 | [Cooldown] Sleeping for 7 mins 12s...
+2025-11-27 23:43:53 | ⏸️ User traffic stable... (Holding at 18 pods)
+2025-11-27 23:43:53 | ✅ Scaled to 18 replicas
+2025-11-27 23:43:53 | [Cooldown] Sleeping for 9 mins 29s...
+2025-11-27 23:53:22 | ⏸️ User traffic stable... (Holding at 18 pods)
+2025-11-27 23:53:22 | ✅ Scaled to 18 replicas
+2025-11-27 23:53:22 | [Cooldown] Sleeping for 6 mins 9s...
+2025-11-27 23:59:31 | 🔻 User traffic dropping... (Removing 9 pods)
+2025-11-27 23:59:31 | ✅ Scaled to 9 replicas
+2025-11-27 23:59:31 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-27 23:59:31 | ✅ Scaled to 10 replicas
+2025-11-27 23:59:31 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-27 23:59:31 | [Step 1/3] Sleeping for 8 mins 1s...
+2025-11-28 00:07:32 | 🚀 Increasing load by 7 pods.
+2025-11-28 00:07:32 | ✅ Scaled to 17 replicas
+2025-11-28 00:07:32 | [Step 2/3] Sleeping for 8 mins 16s...
+2025-11-28 00:15:48 | 🚀 Increasing load by 5 pods.
+2025-11-28 00:15:48 | ✅ Scaled to 22 replicas
+2025-11-28 00:15:48 | [Step 3/3] Sleeping for 7 mins 45s...
+2025-11-28 00:23:33 | 🚀 Increasing load by 9 pods.
+2025-11-28 00:23:33 | ✅ Scaled to 31 replicas
+2025-11-28 00:23:33 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-28 00:23:33 | [Cooldown] Sleeping for 5 mins 19s...
+2025-11-28 00:28:52 | ⏸️ User traffic stable... (Holding at 31 pods)
+2025-11-28 00:28:52 | ✅ Scaled to 31 replicas
+2025-11-28 00:28:52 | [Cooldown] Sleeping for 7 mins 8s...
+2025-11-28 00:36:00 | ⏸️ User traffic stable... (Holding at 31 pods)
+2025-11-28 00:36:00 | ✅ Scaled to 31 replicas
+2025-11-28 00:36:00 | [Cooldown] Sleeping for 5 mins 12s...
+2025-11-28 00:41:12 | 🔻 User traffic dropping... (Removing 10 pods)
+2025-11-28 00:41:12 | ✅ Scaled to 21 replicas
+2025-11-28 00:41:12 | [Cooldown] Sleeping for 9 mins 1s...
+2025-11-28 00:50:13 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-28 00:50:13 | ✅ Scaled to 13 replicas
+2025-11-28 00:50:13 | [Cooldown] Sleeping for 9 mins 5s...
+2025-11-28 00:59:18 | ⏸️ User traffic stable... (Holding at 13 pods)
+2025-11-28 00:59:19 | ✅ Scaled to 13 replicas
+2025-11-28 00:59:19 | [Cooldown] Sleeping for 8 mins 38s...
+2025-11-28 01:07:57 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-28 01:07:57 | ✅ Scaled to 6 replicas
+2025-11-28 01:07:57 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-28 01:07:57 | ✅ Scaled to 10 replicas
+2025-11-28 01:07:57 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-28 01:07:57 | [Step 1/3] Sleeping for 9 mins 28s...
+2025-11-28 01:17:25 | 🚀 Increasing load by 8 pods.
+2025-11-28 01:17:25 | ✅ Scaled to 18 replicas
+2025-11-28 01:17:25 | [Step 2/3] Sleeping for 5 mins 19s...
+2025-11-28 01:22:44 | 🚀 Increasing load by 9 pods.
+2025-11-28 01:22:44 | ✅ Scaled to 27 replicas
+2025-11-28 01:22:44 | [Step 3/3] Sleeping for 5 mins 14s...
+2025-11-28 01:27:58 | 🚀 Increasing load by 6 pods.
+2025-11-28 01:27:58 | ✅ Scaled to 33 replicas
+2025-11-28 01:27:58 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-28 01:27:58 | [Cooldown] Sleeping for 7 mins 43s...
+2025-11-28 01:35:41 | ⏸️ User traffic stable... (Holding at 33 pods)
+2025-11-28 01:35:41 | ✅ Scaled to 33 replicas
+2025-11-28 01:35:41 | [Cooldown] Sleeping for 8 mins 26s...
+2025-11-28 01:44:07 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-28 01:44:07 | ✅ Scaled to 26 replicas
+2025-11-28 01:44:07 | [Cooldown] Sleeping for 5 mins 28s...
+2025-11-28 01:49:35 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-28 01:49:35 | ✅ Scaled to 20 replicas
+2025-11-28 01:49:35 | [Cooldown] Sleeping for 6 mins 17s...
+2025-11-28 01:55:52 | ⏸️ User traffic stable... (Holding at 20 pods)
+2025-11-28 01:55:52 | ✅ Scaled to 20 replicas
+2025-11-28 01:55:52 | [Cooldown] Sleeping for 6 mins 47s...
+2025-11-28 02:02:39 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-28 02:02:39 | ✅ Scaled to 14 replicas
+2025-11-28 02:02:39 | [Cooldown] Sleeping for 7 mins 59s...
+2025-11-28 02:10:38 | 🔻 User traffic dropping... (Removing 7 pods)
+2025-11-28 02:10:38 | ✅ Scaled to 7 replicas
+2025-11-28 02:10:38 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-28 02:10:38 | ✅ Scaled to 10 replicas
+2025-11-28 02:10:38 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-28 02:10:38 | [Step 1/3] Sleeping for 7 mins 34s...
+2025-11-28 02:18:12 | 🚀 Increasing load by 6 pods.
+2025-11-28 02:18:12 | ✅ Scaled to 16 replicas
+2025-11-28 02:18:12 | [Step 2/3] Sleeping for 5 mins 38s...
+2025-11-28 02:23:50 | 🚀 Increasing load by 10 pods.
+2025-11-28 02:23:51 | ✅ Scaled to 26 replicas
+2025-11-28 02:23:51 | [Step 3/3] Sleeping for 6 mins 11s...
+2025-11-28 02:30:02 | 🚀 Increasing load by 10 pods.
+2025-11-28 02:30:02 | ✅ Scaled to 36 replicas
+2025-11-28 02:30:02 | --- 📉 Phase 2: User Leaving or Staying (Cooldown) ---
+2025-11-28 02:30:02 | [Cooldown] Sleeping for 5 mins 43s...
+2025-11-28 02:35:45 | ⏸️ User traffic stable... (Holding at 36 pods)
+2025-11-28 02:35:45 | ✅ Scaled to 36 replicas
+2025-11-28 02:35:45 | [Cooldown] Sleeping for 5 mins 12s...
+2025-11-28 02:40:57 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-28 02:40:57 | ✅ Scaled to 30 replicas
+2025-11-28 02:40:57 | [Cooldown] Sleeping for 7 mins 33s...
+2025-11-28 02:48:30 | ⏸️ User traffic stable... (Holding at 30 pods)
+2025-11-28 02:48:30 | ✅ Scaled to 30 replicas
+2025-11-28 02:48:30 | [Cooldown] Sleeping for 7 mins 28s...
+2025-11-28 02:55:58 | 🔻 User traffic dropping... (Removing 6 pods)
+2025-11-28 02:55:58 | ✅ Scaled to 24 replicas
+2025-11-28 02:55:58 | [Cooldown] Sleeping for 5 mins 7s...
+2025-11-28 03:01:05 | ⏸️ User traffic stable... (Holding at 24 pods)
+2025-11-28 03:01:05 | ✅ Scaled to 24 replicas
+2025-11-28 03:01:05 | [Cooldown] Sleeping for 6 mins 51s...
+2025-11-28 03:07:56 | 🔻 User traffic dropping... (Removing 8 pods)
+2025-11-28 03:07:56 | ✅ Scaled to 16 replicas
+2025-11-28 03:07:56 | [Cooldown] Sleeping for 6 mins 32s...
+2025-11-28 03:14:28 | ⏸️ User traffic stable... (Holding at 16 pods)
+2025-11-28 03:14:28 | ✅ Scaled to 16 replicas
+2025-11-28 03:14:28 | [Cooldown] Sleeping for 5 mins 13s...
+2025-11-28 03:19:41 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-28 03:19:41 | ✅ Scaled to 11 replicas
+2025-11-28 03:19:41 | [Cooldown] Sleeping for 7 mins 4s...
+2025-11-28 03:26:45 | 🔻 User traffic dropping... (Removing 5 pods)
+2025-11-28 03:26:45 | ✅ Scaled to 6 replicas
+2025-11-28 03:26:45 | 📉 Traffic is low (Below baseline). Resetting loop.
+2025-11-28 03:26:45 | ✅ Scaled to 10 replicas
+2025-11-28 03:26:45 | --- 📈 Phase 1: Ramp Up (Traffic Coming) ---
+2025-11-28 03:26:45 | [Step 1/3] Sleeping for 7 mins 0s...

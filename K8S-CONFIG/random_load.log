@@ -1,0 +1,168 @@
+2025-11-11 12:01:38 | ==== Random Load Test Started ====
+2025-11-11 12:01:38 | ---- Reset to baseline: replicas=2, cpu=200m ----
+2025-11-11 12:04:11 | ==== Random Load Test Started ====
+2025-11-11 12:04:11 | ---- Reset to baseline: replicas=2, cpu=200m ----
+deployment.apps/cpu-stressor-ds scaled
+The Deployment "cpu-stressor-ds" is invalid: spec.template.spec.containers[0].image: Required value
+2025-11-11 12:06:01 | ==== Random Load Test Started ====
+2025-11-11 12:06:01 | ---- Reset to baseline: replicas=2, cpu=200m ----
+deployment.apps/cpu-stressor-ds scaled
+deployment.apps/cpu-stressor-ds patched
+2025-11-11 12:06:01 | Set replicas=6 | cpu=228m
+deployment.apps/cpu-stressor-ds scaled
+deployment.apps/cpu-stressor-ds patched
+2025-11-11 12:06:01 | Sleeping 185s...
+2025-11-11 12:09:06 | Set replicas=14 | cpu=426m
+deployment.apps/cpu-stressor-ds scaled
+deployment.apps/cpu-stressor-ds patched
+2025-11-11 12:09:07 | Sleeping 182s...
+2025-11-11 12:12:09 | Set replicas=5 | cpu=893m
+deployment.apps/cpu-stressor-ds scaled
+deployment.apps/cpu-stressor-ds patched
+2025-11-11 12:12:09 | Sleeping 273s...
+2025-11-11 12:16:42 | Set replicas=9 | cpu=393m
+deployment.apps/cpu-stressor-ds scaled
+deployment.apps/cpu-stressor-ds patched
+2025-11-11 12:16:42 | Sleeping 227s...
+2025-11-11 12:20:29 | Set replicas=9 | cpu=353m
+deployment.apps/cpu-stressor-ds scaled
+deployment.apps/cpu-stressor-ds patched
+2025-11-11 12:20:29 | Sleeping 283s...
+2025-11-11 12:25:12 | Set replicas=3 | cpu=479m
+deployment.apps/cpu-stressor-ds scaled
+deployment.apps/cpu-stressor-ds patched
+2025-11-11 12:25:13 | Sleeping 211s...
+2025-11-11 12:28:44 | Set replicas=7 | cpu=857m
+deployment.apps/cpu-stressor-ds scaled
+deployment.apps/cpu-stressor-ds patched
+2025-11-11 12:28:44 | Sleeping 277s...
+2025-11-11 12:33:21 | Set replicas=8 | cpu=433m
+deployment.apps/cpu-stressor-ds scaled
+deployment.apps/cpu-stressor-ds patched
+2025-11-11 12:33:21 | Sleeping 267s...
+2025-11-11 12:37:48 | Set replicas=10 | cpu=282m
+deployment.apps/cpu-stressor-ds scaled
+deployment.apps/cpu-stressor-ds patched
+2025-11-11 12:37:48 | Sleeping 282s...
+2025-11-11 12:42:30 | Set replicas=9 | cpu=590m
+deployment.apps/cpu-stressor-ds scaled
+deployment.apps/cpu-stressor-ds patched
+2025-11-11 12:42:30 | Sleeping 270s...
+2025-11-11 12:47:00 | Set replicas=4 | cpu=414m
+deployment.apps/cpu-stressor-ds scaled
+deployment.apps/cpu-stressor-ds patched
+2025-11-11 12:47:01 | Sleeping 254s...
+2025-11-11 12:51:15 | Set replicas=8 | cpu=616m
+deployment.apps/cpu-stressor-ds scaled
+deployment.apps/cpu-stressor-ds patched
+2025-11-11 12:51:15 | Sleeping 284s...
+2025-11-11 12:55:59 | Set replicas=4 | cpu=555m
+deployment.apps/cpu-stressor-ds scaled
+deployment.apps/cpu-stressor-ds patched
+2025-11-11 12:55:59 | Sleeping 199s...
+2025-11-11 12:59:18 | Set replicas=2 | cpu=523m
+deployment.apps/cpu-stressor-ds scaled
+deployment.apps/cpu-stressor-ds patched
+2025-11-11 12:59:18 | Sleeping 207s...
+2025-11-11 13:02:45 | Set replicas=5 | cpu=736m
+deployment.apps/cpu-stressor-ds scaled
+deployment.apps/cpu-stressor-ds patched
+2025-11-11 13:02:46 | Sleeping 278s...
+2025-11-11 13:07:24 | ---- Reset to baseline: replicas=2, cpu=200m ----
+deployment.apps/cpu-stressor-ds scaled
+deployment.apps/cpu-stressor-ds patched
+2025-11-11 13:07:24 | Set replicas=10 | cpu=278m
+deployment.apps/cpu-stressor-ds scaled
+deployment.apps/cpu-stressor-ds patched
+2025-11-11 13:07:24 | Sleeping 281s...
+2025-11-11 13:12:05 | Set replicas=13 | cpu=719m
+deployment.apps/cpu-stressor-ds scaled
+deployment.apps/cpu-stressor-ds patched
+2025-11-11 13:12:06 | Sleeping 229s...
+2025-11-11 13:18:05 | ==== Random Scale-Only (MAX CPU pinned) Started ====
+2025-11-11 13:18:05 | ---- Reset hour-cycle: replicas=2, cpu=1000m (pinned) ----
+deployment.apps/cpu-stressor-ds scaled
+deployment.apps/cpu-stressor-ds patched
+2025-11-11 13:18:05 | Set replicas=7
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 13:18:05 | Set replicas=6
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 13:18:05 | Sleeping 239s...
+2025-11-11 13:22:04 | Set replicas=19
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 13:22:04 | Sleeping 218s...
+2025-11-11 13:25:42 | Set replicas=15
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 13:25:42 | Sleeping 263s...
+2025-11-11 13:30:05 | Set replicas=18
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 13:30:05 | Sleeping 265s...
+2025-11-11 13:34:30 | Set replicas=19
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 13:34:31 | Sleeping 290s...
+2025-11-11 13:39:21 | Set replicas=12
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 13:39:21 | Sleeping 284s...
+2025-11-11 13:44:05 | Set replicas=11
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 13:44:05 | Sleeping 292s...
+2025-11-11 13:48:57 | Set replicas=5
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 13:48:57 | Sleeping 193s...
+2025-11-11 13:52:10 | Set replicas=9
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 13:52:10 | Sleeping 191s...
+2025-11-11 13:55:21 | Set replicas=16
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 13:55:21 | Sleeping 180s...
+2025-11-11 13:58:21 | Set replicas=12
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 13:58:21 | Sleeping 269s...
+2025-11-11 14:02:50 | Set replicas=11
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 14:02:50 | Sleeping 294s...
+2025-11-11 14:07:44 | Set replicas=7
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 14:07:44 | Sleeping 180s...
+2025-11-11 14:10:44 | Set replicas=11
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 14:10:44 | Sleeping 247s...
+2025-11-11 14:14:51 | Set replicas=14
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 14:14:51 | Sleeping 182s...
+2025-11-11 14:17:53 | Set replicas=19
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 14:17:53 | Sleeping 228s...
+2025-11-11 14:21:41 | ---- Reset hour-cycle: replicas=2, cpu=1000m (pinned) ----
+deployment.apps/cpu-stressor-ds scaled
+deployment.apps/cpu-stressor-ds patched (no change)
+2025-11-11 14:21:42 | Set replicas=9
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 14:21:42 | Sleeping 216s...
+2025-11-11 14:25:18 | Set replicas=20
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 14:25:18 | Sleeping 203s...
+2025-11-11 14:28:41 | Set replicas=19
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 14:28:41 | Sleeping 266s...
+2025-11-11 14:33:07 | Set replicas=13
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 14:33:07 | Sleeping 245s...
+2025-11-11 14:37:12 | Set replicas=16
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 14:37:12 | Sleeping 285s...
+2025-11-11 14:41:57 | Set replicas=14
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 14:41:57 | Sleeping 183s...
+2025-11-11 14:45:00 | Set replicas=20
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 14:45:00 | Sleeping 209s...
+2025-11-11 14:48:29 | Set replicas=14
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 14:48:29 | Sleeping 214s...
+2025-11-11 14:52:03 | Set replicas=8
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 14:52:03 | Sleeping 294s...
+2025-11-11 14:56:57 | Set replicas=16
+deployment.apps/cpu-stressor-ds scaled
+2025-11-11 14:56:58 | Sleeping 269s...
