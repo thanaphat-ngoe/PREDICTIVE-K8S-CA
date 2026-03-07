@@ -1,0 +1,149 @@
+Timestamp,Workers,CPU_Usage_%,Running_Pods,Pending_Pods,CPU_Req,CPU_Cap,Mem_Req,Mem_Cap,Predicted_CPU_Req,Action,Reason
+2026-03-06 12:50:26,2,78.48,36,0,7.7,8.0,4.5,11.92,5.72,DO_NOTHING,System is stable
+2026-03-06 12:51:27,2,79.49,36,3,7.7,8.0,4.5,11.92,5.58,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 12:52:28,2,78.41,36,1,7.7,8.0,4.5,11.92,5.14,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 12:53:29,2,78.85,36,1,7.7,8.0,4.5,11.92,5.1,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 12:54:30,2,78.85,36,1,7.7,8.0,4.5,11.92,5.14,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 12:55:31,2,78.31,36,1,7.7,8.0,4.5,11.92,5.15,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 12:56:32,2,78.81,36,2,7.7,8.0,4.5,11.92,5.51,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 12:57:33,2,79.05,36,0,7.7,8.0,4.5,11.92,5.23,DO_NOTHING,System is stable
+2026-03-06 12:58:34,2,78.06,32,0,6.9,8.0,4.0,11.92,4.77,DO_NOTHING,System is stable
+2026-03-06 12:59:35,2,73.2,30,0,6.5,8.0,3.75,11.92,4.39,DO_NOTHING,System is stable
+2026-03-06 13:00:36,2,69.94,31,0,6.7,8.0,3.88,11.92,4.54,DO_NOTHING,System is stable
+2026-03-06 13:01:37,2,68.56,30,0,6.5,8.0,3.75,11.92,4.38,DO_NOTHING,System is stable
+2026-03-06 13:02:38,2,69.16,28,0,6.1,8.0,3.5,11.92,3.93,DO_NOTHING,System is stable
+2026-03-06 13:03:39,2,64.85,27,0,5.9,8.0,3.38,11.92,3.65,DO_NOTHING,System is stable
+2026-03-06 13:04:40,2,67.1,28,0,6.1,8.0,3.5,11.92,3.71,DO_NOTHING,System is stable
+2026-03-06 13:05:40,2,61.35,25,0,5.5,8.0,3.12,11.92,3.18,DO_NOTHING,System is stable
+2026-03-06 13:06:41,2,64.03,26,0,5.7,8.0,3.25,11.92,3.2,DO_NOTHING,System is stable
+2026-03-06 13:07:42,2,63.64,28,0,6.1,8.0,3.5,11.92,3.44,DO_NOTHING,System is stable
+2026-03-06 13:08:43,2,66.24,29,0,6.3,8.0,3.62,11.92,3.63,DO_NOTHING,System is stable
+2026-03-06 13:09:44,2,63.66,27,0,5.9,8.0,3.38,11.92,3.42,DO_NOTHING,System is stable
+2026-03-06 13:10:45,2,64.18,24,0,5.3,8.0,3.0,11.92,3.01,DO_NOTHING,System is stable
+2026-03-06 13:11:46,2,59.56,24,0,5.3,8.0,3.0,11.92,2.95,DO_NOTHING,"[Wait] AI Predicts 2.95, but Current Req is still high (5.30 >= 3.00)"
+2026-03-06 13:12:47,2,56.9,21,0,4.7,8.0,2.62,11.92,2.42,DO_NOTHING,"[Wait] AI Predicts 2.42, but Current Req is still high (4.70 >= 3.00)"
+2026-03-06 13:13:48,2,49.69,19,0,4.3,8.0,2.38,11.92,1.96,DO_NOTHING,"[Wait] AI Predicts 1.96, but Current Req is still high (4.30 >= 3.00)"
+2026-03-06 13:14:49,2,52.28,17,0,3.9,8.0,2.12,11.92,1.57,DO_NOTHING,"[Wait] AI Predicts 1.57, but Current Req is still high (3.90 >= 3.00)"
+2026-03-06 13:15:50,2,45.27,15,0,3.5,8.0,1.88,11.92,1.32,DO_NOTHING,"[Wait] AI Predicts 1.32, but Current Req is still high (3.50 >= 3.00)"
+2026-03-06 13:16:51,2,38.73,14,0,3.3,8.0,1.75,11.92,1.24,DO_NOTHING,"[Wait] AI Predicts 1.24, but Current Req is still high (3.30 >= 3.00)"
+2026-03-06 13:17:52,2,31.16,11,0,2.7,8.0,1.38,11.92,1.15,SCALE_IN,[Safe Scale-In] Predict (1.15) & Current (2.70) are safe for 1 nodes
+2026-03-06 13:18:58,1,46.77,8,0,1.85,4.0,1.0,7.64,1.11,DO_NOTHING,System is stable
+2026-03-06 13:19:59,1,36.9,6,0,1.45,4.0,0.75,7.64,1.12,DO_NOTHING,System is stable
+2026-03-06 13:21:00,1,31.47,5,0,1.25,4.0,0.62,7.64,1.13,DO_NOTHING,System is stable
+2026-03-06 13:22:00,1,28.38,4,0,1.05,4.0,0.5,7.64,1.12,DO_NOTHING,System is stable
+2026-03-06 13:23:01,1,31.77,5,0,1.25,4.0,0.62,7.64,1.13,DO_NOTHING,System is stable
+2026-03-06 13:24:02,1,26.92,4,0,1.05,4.0,0.5,7.64,1.12,DO_NOTHING,System is stable
+2026-03-06 13:25:02,1,26.82,4,0,1.05,4.0,0.5,7.64,1.11,DO_NOTHING,System is stable
+2026-03-06 13:26:03,1,31.52,5,0,1.25,4.0,0.62,7.64,1.1,DO_NOTHING,System is stable
+2026-03-06 13:27:03,1,27.12,4,0,1.05,4.0,0.5,7.64,1.07,DO_NOTHING,System is stable
+2026-03-06 13:28:04,1,26.8,4,0,1.05,4.0,0.5,7.64,1.08,DO_NOTHING,System is stable
+2026-03-06 13:29:05,1,26.88,4,0,1.05,4.0,0.5,7.64,1.14,DO_NOTHING,System is stable
+2026-03-06 13:30:05,1,24.75,4,0,1.05,4.0,0.5,7.64,1.27,DO_NOTHING,System is stable
+2026-03-06 13:31:06,1,25.12,4,0,1.05,4.0,0.5,7.64,1.44,DO_NOTHING,System is stable
+2026-03-06 13:32:07,1,25.65,4,0,1.05,4.0,0.5,7.64,1.8,DO_NOTHING,System is stable
+2026-03-06 13:33:07,1,25.52,4,0,1.05,4.0,0.5,7.64,2.23,DO_NOTHING,System is stable
+2026-03-06 13:34:08,1,24.88,4,0,1.05,4.0,0.5,7.64,2.6,DO_NOTHING,System is stable
+2026-03-06 13:35:09,1,24.95,4,0,1.05,4.0,0.5,7.64,2.92,DO_NOTHING,System is stable
+2026-03-06 13:36:09,1,27.15,6,0,1.45,4.0,0.75,7.64,3.28,SCALE_OUT,[AI] Need 3.28 Cores (> 3.20 limit)
+2026-03-06 13:37:18,2,18.62,6,2,2.1,8.0,1.0,11.91,4.1,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 13:38:19,2,23.05,8,0,2.1,8.0,1.0,11.91,5.02,DO_NOTHING,System is stable
+2026-03-06 13:39:20,2,29.25,11,0,2.7,8.0,1.38,11.91,6.13,DO_NOTHING,System is stable
+2026-03-06 13:40:21,2,34.06,12,0,2.9,8.0,1.5,11.91,6.81,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 13:41:22,2,36.35,13,0,3.1,8.0,1.62,11.91,7.17,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 13:42:23,2,38.57,16,0,3.7,8.0,2.0,11.91,7.4,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 13:43:23,2,48.23,17,0,3.9,8.0,2.12,11.91,7.41,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 13:44:24,2,44.11,16,0,3.7,8.0,2.0,11.91,7.12,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 13:45:25,2,43.21,16,0,3.7,8.0,2.0,11.91,6.93,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 13:46:26,2,48.12,18,0,4.1,8.0,2.25,11.91,6.87,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 13:47:27,2,50.82,21,0,4.7,8.0,2.62,11.91,6.89,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 13:48:28,2,55.1,23,0,5.1,8.0,2.88,11.91,6.95,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 13:49:29,2,59.33,26,0,5.7,8.0,3.25,11.91,7.14,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 13:50:30,2,67.62,29,0,6.3,8.0,3.62,11.91,7.47,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 13:51:31,2,72.86,32,0,6.9,8.0,4.0,11.91,7.7,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 13:52:32,2,76.72,34,0,7.3,8.0,4.25,11.91,7.71,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 13:53:33,2,78.91,36,3,7.7,8.0,4.5,11.91,7.63,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 13:54:34,2,80.56,36,2,7.7,8.0,4.5,11.91,7.67,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 13:55:35,2,79.76,36,4,7.7,8.0,4.5,11.91,7.66,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 13:56:35,2,78.0,36,5,7.7,8.0,4.5,11.91,7.7,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 13:57:36,2,78.05,36,3,7.7,8.0,4.5,11.91,7.65,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 13:58:37,2,79.03,36,4,7.7,8.0,4.5,11.91,7.59,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 13:59:38,2,76.09,36,7,7.7,8.0,4.5,11.91,7.55,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 14:00:39,2,78.38,36,9,7.7,8.0,4.5,11.91,7.55,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 14:01:40,2,78.01,36,9,7.7,8.0,4.5,11.91,7.47,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 14:02:41,2,78.01,36,9,7.7,8.0,4.5,11.91,7.3,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 14:03:42,2,77.91,36,4,7.7,8.0,4.5,11.91,6.29,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 14:04:43,2,78.34,36,1,7.7,8.0,4.5,11.91,5.55,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 14:05:44,2,74.7,34,0,7.3,8.0,4.25,11.91,4.8,DO_NOTHING,System is stable
+2026-03-06 14:06:45,2,74.04,33,0,7.1,8.0,4.12,11.91,4.6,DO_NOTHING,System is stable
+2026-03-06 14:07:46,2,74.2,34,1,7.5,8.0,4.38,11.91,6.06,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 14:08:47,2,75.44,33,0,7.1,8.0,4.12,11.91,5.84,DO_NOTHING,System is stable
+2026-03-06 14:09:47,2,73.8,34,0,7.3,8.0,4.25,11.91,5.59,DO_NOTHING,System is stable
+2026-03-06 14:10:49,2,73.41,33,0,7.1,8.0,4.12,11.91,5.1,DO_NOTHING,System is stable
+2026-03-06 14:11:49,2,73.6,34,0,7.3,8.0,4.25,11.91,4.93,DO_NOTHING,System is stable
+2026-03-06 14:12:50,2,76.96,33,0,7.1,8.0,4.12,11.91,4.48,DO_NOTHING,System is stable
+2026-03-06 14:13:51,2,75.15,33,0,7.1,8.0,4.12,11.91,4.34,DO_NOTHING,System is stable
+2026-03-06 14:14:52,2,73.37,32,0,6.9,8.0,4.0,11.91,4.48,DO_NOTHING,System is stable
+2026-03-06 14:15:53,2,74.26,30,0,6.5,8.0,3.75,11.91,4.34,DO_NOTHING,System is stable
+2026-03-06 14:16:54,2,67.84,28,0,6.1,8.0,3.5,11.91,4.07,DO_NOTHING,System is stable
+2026-03-06 14:17:55,2,66.62,27,0,5.9,8.0,3.38,11.91,3.8,DO_NOTHING,System is stable
+2026-03-06 14:18:56,2,62.69,25,0,5.5,8.0,3.12,11.91,3.33,DO_NOTHING,System is stable
+2026-03-06 14:19:57,2,63.51,26,0,5.7,8.0,3.25,11.91,3.29,DO_NOTHING,System is stable
+2026-03-06 14:20:58,2,58.67,21,0,4.7,8.0,2.62,11.91,2.37,DO_NOTHING,"[Wait] AI Predicts 2.37, but Current Req is still high (4.70 >= 3.00)"
+2026-03-06 14:21:59,2,51.79,18,0,4.1,8.0,2.25,11.91,1.72,DO_NOTHING,"[Wait] AI Predicts 1.72, but Current Req is still high (4.10 >= 3.00)"
+2026-03-06 14:23:00,2,41.44,15,0,3.5,8.0,1.88,11.91,1.29,DO_NOTHING,"[Wait] AI Predicts 1.29, but Current Req is still high (3.50 >= 3.00)"
+2026-03-06 14:24:01,2,41.44,12,0,2.9,8.0,1.5,11.91,1.17,SCALE_IN,[Safe Scale-In] Predict (1.17) & Current (2.90) are safe for 1 nodes
+2026-03-06 14:25:08,1,56.8,11,0,2.45,4.0,1.38,7.64,1.16,DO_NOTHING,System is stable
+2026-03-06 14:26:08,1,48.05,9,0,2.05,4.0,1.12,7.64,1.16,DO_NOTHING,System is stable
+2026-03-06 14:27:09,1,43.25,8,0,1.85,4.0,1.0,7.64,1.15,DO_NOTHING,System is stable
+2026-03-06 14:28:10,1,39.98,5,0,1.25,4.0,0.62,7.64,1.12,DO_NOTHING,System is stable
+2026-03-06 14:29:10,1,24.65,4,0,1.05,4.0,0.5,7.64,1.13,DO_NOTHING,System is stable
+2026-03-06 14:30:11,1,23.47,4,0,1.05,4.0,0.5,7.64,1.13,DO_NOTHING,System is stable
+2026-03-06 14:31:12,1,23.18,4,0,1.05,4.0,0.5,7.64,1.13,DO_NOTHING,System is stable
+2026-03-06 14:32:12,1,23.67,4,0,1.05,4.0,0.5,7.64,1.13,DO_NOTHING,System is stable
+2026-03-06 14:33:13,1,24.2,4,0,1.05,4.0,0.5,7.64,1.12,DO_NOTHING,System is stable
+2026-03-06 14:34:14,1,23.35,4,0,1.05,4.0,0.5,7.64,1.11,DO_NOTHING,System is stable
+2026-03-06 14:35:14,1,28.75,5,0,1.25,4.0,0.62,7.64,1.1,DO_NOTHING,System is stable
+2026-03-06 14:36:15,1,23.77,4,0,1.05,4.0,0.5,7.64,1.07,DO_NOTHING,System is stable
+2026-03-06 14:37:16,1,23.35,4,0,1.05,4.0,0.5,7.64,1.07,DO_NOTHING,System is stable
+2026-03-06 14:38:16,1,24.02,4,0,1.05,4.0,0.5,7.64,1.11,DO_NOTHING,System is stable
+2026-03-06 14:39:17,1,25.55,4,0,1.05,4.0,0.5,7.64,1.28,DO_NOTHING,System is stable
+2026-03-06 14:40:18,1,25.47,4,0,1.05,4.0,0.5,7.64,1.69,DO_NOTHING,System is stable
+2026-03-06 14:41:18,1,30.53,5,0,1.25,4.0,0.62,7.64,2.31,DO_NOTHING,System is stable
+2026-03-06 14:42:19,1,31.1,5,0,1.25,4.0,0.62,7.64,2.82,DO_NOTHING,System is stable
+2026-03-06 14:43:20,1,25.65,4,0,1.05,4.0,0.5,7.64,3.08,DO_NOTHING,System is stable
+2026-03-06 14:44:20,1,25.92,4,0,1.05,4.0,0.5,7.64,3.38,SCALE_OUT,[AI] Need 3.38 Cores (> 3.20 limit)
+2026-03-06 14:45:30,2,18.12,6,0,1.7,8.0,0.75,11.89,4.22,DO_NOTHING,System is stable
+2026-03-06 14:46:31,2,20.59,10,0,2.5,8.0,1.25,11.89,5.15,DO_NOTHING,System is stable
+2026-03-06 14:47:32,2,29.56,10,0,2.5,8.0,1.25,11.89,5.71,DO_NOTHING,System is stable
+2026-03-06 14:48:33,2,27.04,9,0,2.3,8.0,1.12,11.89,6.05,DO_NOTHING,System is stable
+2026-03-06 14:49:34,2,29.2,10,0,2.5,8.0,1.25,11.89,6.44,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 14:50:35,2,28.79,10,0,2.5,8.0,1.25,11.89,6.57,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 14:51:36,2,32.9,12,0,2.9,8.0,1.5,11.89,6.8,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 14:52:36,2,41.77,16,0,3.7,8.0,2.0,11.89,7.12,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 14:53:37,2,48.75,19,0,4.3,8.0,2.38,11.89,7.28,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 14:54:38,2,51.8,20,0,4.5,8.0,2.5,11.89,7.33,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 14:55:39,2,51.62,19,0,4.3,8.0,2.38,11.89,7.22,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 14:56:40,2,49.94,21,0,4.7,8.0,2.62,11.89,7.3,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 14:57:41,2,53.89,21,0,4.7,8.0,2.62,11.89,7.22,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 14:58:42,2,52.21,20,0,4.5,8.0,2.5,11.89,7.08,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 14:59:43,2,56.6,22,0,4.9,8.0,2.75,11.89,7.19,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 15:00:44,2,57.99,23,0,5.1,8.0,2.88,11.89,7.3,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 15:01:45,2,59.22,24,0,5.3,8.0,3.0,11.89,7.43,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 15:02:46,2,57.84,25,0,5.5,8.0,3.12,11.89,7.54,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 15:03:47,2,62.54,26,0,5.7,8.0,3.25,11.89,7.61,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 15:04:48,2,63.14,26,0,5.7,8.0,3.25,11.89,7.6,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 15:05:49,2,64.7,27,0,5.9,8.0,3.38,11.89,7.61,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 15:06:50,2,65.03,27,0,5.9,8.0,3.38,11.89,7.56,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 15:07:50,2,66.71,29,0,6.3,8.0,3.62,11.89,7.56,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 15:08:51,2,73.35,32,0,6.9,8.0,4.0,11.89,7.59,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 15:09:52,2,76.15,35,0,7.5,8.0,4.38,11.89,7.69,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 15:10:53,2,79.21,36,2,7.7,8.0,4.5,11.89,7.72,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 15:11:54,2,78.92,36,4,7.7,8.0,4.5,11.89,7.68,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 15:12:55,2,79.24,36,2,7.7,8.0,4.5,11.89,7.64,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 15:13:56,2,79.57,36,3,7.7,8.0,4.5,11.89,7.66,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 15:14:57,2,79.95,36,4,7.7,8.0,4.5,11.89,7.67,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 15:15:58,2,78.92,36,2,7.7,8.0,4.5,11.89,7.65,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 15:16:59,2,79.11,36,2,7.7,8.0,4.5,11.89,7.64,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 15:18:00,2,78.14,36,3,7.7,8.0,4.5,11.89,7.63,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 15:19:01,2,80.29,36,5,7.7,8.0,4.5,11.89,7.66,DO_NOTHING,Blocked: Max Workers (2) Reached
+2026-03-06 15:20:02,2,80.4,36,5,7.7,8.0,4.5,11.89,7.64,DO_NOTHING,Blocked: Max Workers (2) Reached
